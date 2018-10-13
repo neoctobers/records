@@ -1,2 +1,2 @@
-# records
-for private
+# Records
+This repo is just for some records
