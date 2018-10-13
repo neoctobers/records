@@ -1,4 +1,3 @@
 # Go-lang
 
-Download: [Stable versions](https://golang.org/dl/)
-
+Download: [https://golang.org/dl/](https://golang.org/dl/)
