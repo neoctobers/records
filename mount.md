@@ -21,5 +21,6 @@ reboot
 ```
 
 more:
-[Ubuntu缩小磁盘分区大小](https://blog.csdn.net/u012291393/article/details/78636456?utm_source=blogxgwz2)
+
+- [Ubuntu缩小磁盘分区大小](https://blog.csdn.net/u012291393/article/details/78636456?utm_source=blogxgwz2)
 
