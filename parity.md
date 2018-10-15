@@ -16,3 +16,8 @@ chmod +x /etc/systemd/system/parity.service
 systemctl enable parity
 systemctl start parity
 ```
+
+may output a .log file, edit the file `/etc/crontab`, add this line:
+```
+*/5 *   * * *   root    service parity status > /???/???.log
+```
