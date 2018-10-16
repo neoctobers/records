@@ -11,3 +11,8 @@ copy to `/etc/`:
 ```
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ```
+
+list listening ports:
+```
+netstat -ntlp | grep LISTEN
+```
