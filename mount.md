@@ -6,6 +6,8 @@ sudo su
 fdisk -l
 fdisk /dev/sdb
 n
+p
+...
 w
 mkfs -t ext4 /dev/sdb1
 ```
