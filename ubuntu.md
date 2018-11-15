@@ -19,5 +19,11 @@ netstat -ntlp | grep LISTEN
 
 tar to `.tar.gz`:
 ```
-tar -zcvf {name}.tar.gz {source}
+tar -zcvf filename.tar.gz source
 ```
+
+unzip:
+```
+tar xzf filename.tar.gz
+```
+
