@@ -16,3 +16,8 @@ list listening ports:
 ```
 netstat -ntlp | grep LISTEN
 ```
+
+tar to `.tar.gz`:
+```
+tar -zcvf {name}.tar.gz {source}
+```
