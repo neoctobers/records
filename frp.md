@@ -4,8 +4,6 @@
 
 - [fatedier/frp](https://github.com/fatedier/frp)
 
-Many thanks to: [https://github.com/fatedier](https://github.com/fatedier)
-
 ## Documents
 
 - [EN](https://github.com/fatedier/frp/blob/master/README.md)
@@ -50,3 +48,4 @@ run
 
 ## Enjoy it!
 
+Many thanks to: [https://github.com/fatedier](https://github.com/fatedier)
