@@ -1,6 +1,8 @@
-# Generate SSL cert
+# openssl
 
-Use `openssl` to generate a SSL `private.key` & `cert.pem` pair:
+## Creating a self-signed certificate using OpenSSL
+
+To create a self-signed SSL certificate using openssl, run the following command:
 ```
 openssl req -newkey rsa:2048 -sha256 -nodes -keyout private.key -x509 -days 3650 -out cert.pem
 ```
