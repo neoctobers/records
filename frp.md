@@ -15,7 +15,7 @@ Many thanks to: [https://github.com/fatedier](https://github.com/fatedier)
 
 - [Latest releases](https://github.com/fatedier/frp/releases)
 
-## server-side
+## server-side, ubuntu for example
 
 frps.ini
 ```
@@ -29,7 +29,7 @@ run
 ./frps -c ./frps.ini
 ```
 
-## client-side
+## client-side, win10 for example
 
 frpc.ini
 ```
