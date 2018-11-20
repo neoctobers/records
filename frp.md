@@ -35,7 +35,7 @@ frpc.ini
 server_addr = your-ip-address
 server_port = 7000
 
-[telegram-bot-webhook]
+[web]
 type = https
 local_port = 443
 custom_domains = your.domain.com
