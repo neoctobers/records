@@ -27,9 +27,9 @@ DATABASES = {
         'PASSWORD': 'password',
         'OPTIONS': {
             'sslmode': 'require',
-            'sslcert': '/path/to/certfile',
-            'sslkey': '/path/to/certfile',
-            'sslrootcert': '/path/to/certfile',
+            'sslcert': '/path/to/file',
+            'sslkey': '/path/to/file',
+            'sslrootcert': '/path/to/file',
         },
     },
 }
