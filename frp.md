@@ -35,7 +35,7 @@ frpc.ini
 server_addr = your-ip-address
 server_port = 7000
 
-[web]
+[your.domain.com:port]
 type = https
 local_port = 443
 custom_domains = your.domain.com
