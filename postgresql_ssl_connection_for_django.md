@@ -9,10 +9,9 @@ pip3 install --upgrade psycopyg2
 
 ### Configration file
 
-According to: PostgreSQL official [Database Connection Control Functions](https://www.postgresql.org/docs/current/libpq-connect.html)
+ eference documentation: [PostgreSQL official: Database Connection Control Functions](https://www.postgresql.org/docs/current/libpq-connect.html)
 
 Edit the `settings.py` file like this:
-
 ```python
 DATABASES = {
     # 'default': {
