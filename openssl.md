@@ -1,6 +1,6 @@
 # Generate SSL cert
 
-Use `openssl` to generate a ssl `private.key` & `cert.pem` pair:
+Use `openssl` to generate a SSL `private.key` & `cert.pem` pair:
 ```
 openssl req -newkey rsa:2048 -sha256 -nodes -keyout private.key -x509 -days 3650 -out cert.pem
 ```
