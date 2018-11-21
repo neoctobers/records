@@ -27,3 +27,7 @@ unzip:
 tar xzf filename.tar.gz
 ```
 
+check tcp_bbr:
+```
+lsmod | grep bbr
+```
