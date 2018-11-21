@@ -43,10 +43,10 @@ systemctl enable frps
 
 start / stop / restart / check status
 ```
-systemctl frps start
-systemctl frps stop
-systemctl frps restart
-systemctl frps status
+service frps start
+service frps stop
+service frps restart
+service frps status
 ```
 
 or run it in console:
