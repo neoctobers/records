@@ -1,8 +1,8 @@
 # sshd_config
 
-## root
+## Edit
 
-Edit `/etc/ssh/sshd_config`:
+`/etc/ssh/sshd_config`:
 ```
 # Port 22
 Port custom-port
