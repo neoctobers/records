@@ -10,3 +10,8 @@ Port custom-port
 #PermitEmptyPasswords no
 PermitEmptyPasswords no
 ```
+
+## run
+```
+service sshd restart
+```
