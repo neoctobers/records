@@ -22,7 +22,34 @@ bind_port = 7000
 vhost_https_port = 443
 ```
 
-run
+write a `/etc/systemd/system/frps.service`:
+```
+[Unit]
+Description=FRP Server
+After=network.target
+
+[Service]
+ExecStart=/path/to/frps -c /path/to/frps.ini
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
+```
+
+enable the service:
+```
+systemctl enable frps
+```
+
+start / stop / restart / check status
+```
+systemctl frps start
+systemctl frps stop
+systemctl frps restart
+systemctl frps status
+```
+
+or run it in console:
 ```
 ./frps -c ./frps.ini
 ```
@@ -41,7 +68,7 @@ local_port = 443
 custom_domains = your.domain.com
 ```
 
-run
+run 
 ```
 ./frpc -c ./frpc.ini
 ```
