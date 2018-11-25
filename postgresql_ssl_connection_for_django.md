@@ -4,7 +4,7 @@ Many many many many many many searches and tries..... Fxck...
 
 ## psycopg2 package
 ```
-pip3 install --upgrade psycopyg2
+pip3 install --upgrade psycopg2
 ```
 
 ### Configration file
