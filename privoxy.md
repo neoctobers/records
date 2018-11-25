@@ -18,4 +18,4 @@ Change the listening port:
 listen-address  127.0.0.1:1081
 ```
 
-Run
+## Run and enjoy.
