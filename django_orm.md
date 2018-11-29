@@ -1,0 +1,22 @@
+# Use Django ORM
+
+in a deeper directory, without the manage.py
+
+```python
+# coding:utf-8
+import os, sys
+from django.core.wsgi import get_wsgi_application
+
+# /path/to/django/project
+sys.path.extend([os.path.abspath(
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir)
+)])
+
+# load auto.settings
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django-project-name.settings")
+application = get_wsgi_application()
+
+# only if run directly
+if __name__ == "__main__":
+    pass
+```
