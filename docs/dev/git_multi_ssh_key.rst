@@ -47,5 +47,5 @@ Usage
 
 clone for example::
 
-    git clone git@user1:user-name/repository-name.git
+    git clone git@name?:user-name/repository-name.git
 
