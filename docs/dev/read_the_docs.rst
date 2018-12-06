@@ -1,5 +1,5 @@
-Read the docs
-=============
+Read the docs, with sphinx
+==========================
 
 Official Quick Start: https://docs.readthedocs.io/en/latest/intro/getting-started-with-sphinx.html
 

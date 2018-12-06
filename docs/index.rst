@@ -20,6 +20,7 @@ Personal records.
     dev/cmder
     dev/cmd_behind_a_proxy
     dev/multi_commands_in_one_line
+    dev/read_the_docs
 
 .. toctree::
     :maxdepth: 1
