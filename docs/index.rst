@@ -10,33 +10,34 @@ Personal records.
 
 
 .. toctree::
-   :maxdepth: 1
-   :caption: About Development
+    :maxdepth: 1
+    :caption: About Development
 
-   dev/frp
-   dev/git
-   dev/git_io
-   dev/cmder
-   dev/cmd_behind_a_proxy
-
-.. toctree::
-   :maxdepth: 1
-   :caption: php
-
-   php/homestead
+    dev/frp
+    dev/git
+    dev/git_io
+    dev/cmder
+    dev/cmd_behind_a_proxy
+    dev/multi_commands_in_one_line
 
 .. toctree::
-   :maxdepth: 1
-   :caption: python
+    :maxdepth: 1
+    :caption: php
 
-   python/django
-   python/django_orm
-   python/virtualenvwrapper-win
-   python/django_postgresql
-   python/postgresql
+    php/homestead
 
 .. toctree::
-   :maxdepth: 2
-   :caption: General
+    :maxdepth: 1
+    :caption: python
 
-   downloads
+    python/django
+    python/django_orm
+    python/virtualenvwrapper-win
+    python/django_postgresql
+    python/postgresql
+
+.. toctree::
+    :maxdepth: 2
+    :caption: General
+
+    downloads
