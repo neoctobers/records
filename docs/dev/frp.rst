@@ -24,6 +24,7 @@ Edit the ``frps.ini``::
     bind_port = 7000
     vhost_https_port = 443
 
+
 Write a ``/etc/systemd/system/frps.service``::
     [Unit]
     Description=FRP Server
@@ -40,12 +41,14 @@ Enable the service::
 
     systemctl enable frps
 
+
 start / stop / restart / check status::
 
     service frps start
     service frps stop
     service frps restart
     service frps status
+
 
 or run it in console::
 
