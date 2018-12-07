@@ -8,6 +8,7 @@ Personal records.
     :maxdepth: 1
     :caption: About Development
 
+    dev/google_style_guides
     dev/frp
     dev/git
     dev/git_multi_ssh_key
