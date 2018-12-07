@@ -48,3 +48,12 @@ Build the documentation in target language:
 ``./zh_CN`` is ready.
 
 but, how to upload or sync the new language to RTD?
+
+
+Transifex
+---------
+
+.. code-block:: console
+
+    $ tx config mapping-bulk --project neoctobers --file-extension '.pot' --source-file-dir _build/gettext --source-lang en --type PO --expression 'locale/<lang>/LC_MESSAGES/{filepath}/{filename}.po' --execute
+
