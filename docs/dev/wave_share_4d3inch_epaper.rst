@@ -1,9 +1,12 @@
 WaveShare 4.3inch e-paper UART module
 =====================================
 
-`WaveShare 4.3inch e-paper UART module`_
+- Official: `WaveShare 4.3inch e-paper UART module`_
+- Github: `neoctobers/wave_share_4.3inch_epaper`_
 
 .. _WaveShare 4.3inch e-paper UART module: http://www.waveshare.net/wiki/4.3inch_e-Paper_UART_Module
+.. _neoctobers/wave_share_4.3inch_epaper: https://github.com/neoctobers/wave_share_4.3inch_epaper
+
 
 Installation
 ------------
