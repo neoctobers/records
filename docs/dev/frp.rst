@@ -37,22 +37,28 @@ Write a ``/etc/systemd/system/frps.service``::
     [Install]
     WantedBy=multi-user.target
 
-Enable the service::
+Enable the service:
 
-    systemctl enable frps
+.. code-block:: console
 
-
-start / stop / restart / check status::
-
-    service frps start
-    service frps stop
-    service frps restart
-    service frps status
+    $ systemctl enable frps
 
 
-or run it in console::
+start / stop / restart / check status:
 
-    ./frps -c ./frps.ini
+.. code-block:: console
+
+    $ service frps start
+    $ service frps stop
+    $ service frps restart
+    $ service frps status
+
+
+or run it in console:
+
+.. code-block:: console
+
+    $ ./frps -c ./frps.ini
 
 
 Client-side, win10 for example
@@ -69,9 +75,11 @@ Edit the ``frpc.ini``::
     local_port = 443
     custom_domains = your.domain.com
 
-Run::
+Run:
 
-    ./frpc -c ./frpc.ini
+.. code-block:: console
+
+    $ ./frpc -c ./frpc.ini
 
 
 Enjoy it!

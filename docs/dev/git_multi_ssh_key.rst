@@ -5,15 +5,15 @@ Multiple users for different repositories.
 
 
 Generate multiple ssh-keys for different users
-==============================================
+----------------------------------------------
 
 Different passwords is recommended.
 
-::
+.. code-block:: console
 
-    ssh-keygen -t rsa -C "name1@sample.domain"
-    ssh-keygen -t rsa -C "name2@sample.domain"
-    ssh-keygen -t rsa -C "name3@sample.domain"
+    $ ssh-keygen -t rsa -C "name1@sample.domain"
+    $ ssh-keygen -t rsa -C "name2@sample.domain"
+    $ ssh-keygen -t rsa -C "name3@sample.domain"
 
 Put them to ``~/.ssh/`` directory.
 
@@ -43,9 +43,11 @@ Edit or create ``~/.ssh/config`` file::
     # ...
 
 Usage
-=====
+-----
 
-clone for example::
+clone for example:
 
-    git clone git@name?:user-name/repository-name.git
+.. code-block:: console
+
+    $ git clone git@name?:user-name/repository-name.git
 

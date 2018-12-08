@@ -1,8 +1,10 @@
 cmder
 =====
 
-Run cmder as administrator, and run::
+Run cmder as administrator, and run:
 
-    Cmder.exe /REGISTER ALL
+.. code-block:: console
+
+    $ Cmder.exe /REGISTER ALL
 
 :ref: https://www.jianshu.com/p/979db1a96f6d
