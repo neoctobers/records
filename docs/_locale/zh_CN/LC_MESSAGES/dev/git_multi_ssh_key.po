@@ -49,6 +49,3 @@ msgstr ""
 msgid "clone for example:"
 msgstr ""
 
-#~ msgid "clone for example::"
-#~ msgstr ""
-

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../dev/git.rst:2
 msgid "Git"
-msgstr ""
+msgstr "测试 Git"
 
 #: ../../dev/git.rst:5
 msgid "Download"

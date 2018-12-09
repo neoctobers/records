@@ -25,6 +25,3 @@ msgstr ""
 msgid "run:"
 msgstr ""
 
-#~ msgid "run::"
-#~ msgstr ""
-

@@ -89,15 +89,3 @@ msgstr ""
 msgid "Enjoy it!"
 msgstr ""
 
-#~ msgid "Enable the service::"
-#~ msgstr ""
-
-#~ msgid "start / stop / restart / check status::"
-#~ msgstr ""
-
-#~ msgid "or run it in console::"
-#~ msgstr ""
-
-#~ msgid "Run::"
-#~ msgstr ""
-

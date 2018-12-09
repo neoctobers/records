@@ -33,6 +33,3 @@ msgstr ""
 msgid "https://www.jianshu.com/p/979db1a96f6d"
 msgstr ""
 
-#~ msgid "Run cmder as administrator, and run::"
-#~ msgstr ""
-

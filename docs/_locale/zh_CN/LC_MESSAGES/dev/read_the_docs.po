@@ -71,6 +71,3 @@ msgstr ""
 msgid "Transifex"
 msgstr ""
 
-#~ msgid "Read the docs, with sphinx"
-#~ msgstr ""
-

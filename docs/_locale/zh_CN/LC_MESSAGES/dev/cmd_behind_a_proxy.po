@@ -29,9 +29,3 @@ msgstr ""
 msgid "If u wanna know what ip address u are using:"
 msgstr ""
 
-#~ msgid "I am using the `cmder`_, just run::"
-#~ msgstr ""
-
-#~ msgid "If u wanna know what ip address u are using::"
-#~ msgstr ""
-
