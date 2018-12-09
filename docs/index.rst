@@ -19,12 +19,15 @@ Personal records.
     dev/read_the_docs
     dev/settings_sync
     dev/wave_share_4d3inch_epaper
+    dev/python3_on_rasp
+
 
 .. toctree::
     :maxdepth: 1
     :caption: php
 
     php/homestead
+
 
 .. toctree::
     :maxdepth: 1
@@ -35,6 +38,7 @@ Personal records.
     python/virtualenvwrapper-win
     python/django_postgresql
     python/postgresql
+
 
 .. toctree::
     :maxdepth: 2
