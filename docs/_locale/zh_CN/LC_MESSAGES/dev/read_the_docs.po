@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-09 13:19+0800\n"
+"POT-Creation-Date: 2018-12-09 17:09+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,68 +19,89 @@ msgstr ""
 
 #: ../../dev/read_the_docs.rst:2
 msgid "Read the docs"
-msgstr ""
+msgstr "Read the docs 撰写文档"
 
 #: ../../dev/read_the_docs.rst:4
+#, fuzzy
 msgid ""
-"Official Quick Start: https://docs.readthedocs.io/en/latest/intro"
-"/getting-started-with-sphinx.html"
-msgstr ""
+"Use `sphinx`_ to write a documentation, and host it on `RTD`_, just like "
+"this page(site) you are reading."
+msgstr "使用 `sphinx`_ 撰写文档，并托管在 `RTD`_，正如你当前所见。"
 
 #: ../../dev/read_the_docs.rst:7
-msgid "Install sphinx"
-msgstr ""
+msgid "Initial docs by sphinx"
+msgstr "使用 sphinx 初始化"
 
 #: ../../dev/read_the_docs.rst:9
-msgid "Install `sphinx`_ with pip."
-msgstr ""
+msgid "`RTD Quick Start`_"
+msgstr "`RTD 快速起步`_"
 
-#: ../../dev/read_the_docs.rst:19
-msgid "Multiple languages"
-msgstr ""
+#: ../../dev/read_the_docs.rst:11
+msgid "Install `sphinx`_ with pip, then ``sphinx-quickstart`` to init."
+msgstr "通过 pip 安装 `sphinx`_ 然后使用 ``sphinx-quickstart`` 初始化。"
 
 #: ../../dev/read_the_docs.rst:21
+msgid "Edit the ``.rst`` files to write."
+msgstr "编辑 ``.rst`` 文件撰写内容。"
+
+#: ../../dev/read_the_docs.rst:23
+msgid "To make html for preview locally, run:"
+msgstr "在本地生成 html 预览，运行："
+
+#: ../../dev/read_the_docs.rst:31
+msgid "Localization of Documentation"
+msgstr ""
+
+#: ../../dev/read_the_docs.rst:33
+msgid "`RTD Manage Translations`_"
+msgstr ""
+
+#: ../../dev/read_the_docs.rst:35
 msgid "Create/Update translatable files:"
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:28
-msgid "Translate text from source language manually:"
+#: ../../dev/read_the_docs.rst:41
+msgid "or:"
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:34
+#: ../../dev/read_the_docs.rst:47
+msgid ""
+"This command above will leave the generated files under "
+"``_build/gettext``."
+msgstr ""
+
+#: ../../dev/read_the_docs.rst:49
+msgid "Generate ``.po`` files from source language manually:"
+msgstr ""
+
+#: ../../dev/read_the_docs.rst:55
 msgid "Do translate, edit the ``.po`` files."
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:36
+#: ../../dev/read_the_docs.rst:57
 msgid "Then,"
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:38
+#: ../../dev/read_the_docs.rst:59
 msgid "Build the documentation in target language, for preview locally:"
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:45
-msgid "BUT, WHY::"
-msgstr ""
-
-#: ../../dev/read_the_docs.rst:71
-msgid "``./zh_CN`` is ready, except 'index.rst'."
-msgstr ""
-
-#: ../../dev/read_the_docs.rst:75
+#: ../../dev/read_the_docs.rst:67
 msgid "Multi-languages in RTD"
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:77
-msgid "manually."
+#: ../../dev/read_the_docs.rst:69
+msgid "Manually."
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:81
-msgid "Transifex"
+#: ../../dev/read_the_docs.rst:73
+msgid "Use Transifex?"
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:90
-msgid "Commands"
+#: ../../dev/read_the_docs.rst:75
+msgid ""
+"https://docs.readthedocs.io/en/latest/guides/manage-translations.html"
+"#using-transifex"
 msgstr ""
 
 #~ msgid "Generate the ``.mo`` files:"
@@ -93,5 +114,44 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "but, how to upload or sync the new language to RTD?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Official Quick Start: "
+#~ "https://docs.readthedocs.io/en/latest/intro/getting-started-"
+#~ "with-sphinx.html"
+#~ msgstr ""
+
+#~ msgid "Install sphinx"
+#~ msgstr ""
+
+#~ msgid "Install `sphinx`_ with pip."
+#~ msgstr ""
+
+#~ msgid "Multiple languages"
+#~ msgstr ""
+
+#~ msgid "Translate text from source language manually:"
+#~ msgstr ""
+
+#~ msgid "BUT, WHY::"
+#~ msgstr ""
+
+#~ msgid "``./zh_CN`` is ready, except 'index.rst'."
+#~ msgstr ""
+
+#~ msgid "manually."
+#~ msgstr ""
+
+#~ msgid "Transifex"
+#~ msgstr ""
+
+#~ msgid "Commands"
+#~ msgstr ""
+
+#~ msgid "Official `Quick Start`_"
+#~ msgstr ""
+
+#~ msgid "Official `Manage Translations`_"
 #~ msgstr ""
 
