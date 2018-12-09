@@ -17,6 +17,7 @@ Personal records.
     dev/cmd_behind_a_proxy
     dev/multi_commands_in_one_line
     dev/read_the_docs
+    dev/settings_sync
     dev/wave_share_4d3inch_epaper
 
 .. toctree::

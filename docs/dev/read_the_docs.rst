@@ -22,6 +22,7 @@ Create/Update translatable files:
 
 .. code-block:: console
 
+    $ make gettext
     $ sphinx-build -b gettext . _build/gettext
 
 Translate text from source language manually:
@@ -37,7 +38,7 @@ Generate the ``.mo`` files:
 
 .. code-block:: console
 
-    $ sphinx-build build
+    $ sphinx-build build ???
 
 Build the documentation in target language:
 

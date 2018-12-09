@@ -3,7 +3,7 @@ CMD behind a proxy
 
 I am using the `cmder`_, just run:
 
-.. code-block:: coonsole
+.. code-block:: console
 
     $ set http_proxy=http://127.0.0.1:1009
     $ set https_proxy=http://127.0.0.1:1009
