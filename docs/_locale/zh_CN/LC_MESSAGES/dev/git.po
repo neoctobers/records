@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../dev/git.rst:2
 msgid "Git"
-msgstr "测试 Git"
+msgstr "Git 版本控制"
 
 #: ../../dev/git.rst:5
 msgid "Download"
-msgstr ""
+msgstr "下载"
 
 #: ../../dev/git.rst:7
 msgid "`Download`_"
@@ -31,13 +31,13 @@ msgstr ""
 
 #: ../../dev/git.rst:12
 msgid "Config"
-msgstr ""
+msgstr "配置"
 
 #: ../../dev/git.rst:22
 msgid "Push a existing folder"
-msgstr ""
+msgstr "将已有文件夹推送到远程仓库"
 
 #: ../../dev/git.rst:35
 msgid "Cancel the command ``git add .``"
-msgstr ""
+msgstr "撤销 ``git add .`` 操作"
 

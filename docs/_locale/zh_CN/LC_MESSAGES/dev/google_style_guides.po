@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../dev/google_style_guides.rst:2
 msgid "Google Style Guides"
-msgstr ""
+msgstr "Google 开源项目风格指南"
 
 #: ../../dev/google_style_guides.rst:4
 msgid "`Google Style Guides (en)`_"
-msgstr ""
+msgstr "`Google 开源项目风格指南 英文原版`_"
 
 #: ../../dev/google_style_guides.rst:5
 msgid "`Google Style Guides (zh_CN)`_"
-msgstr ""
+msgstr "`Google 开源项目风格指南 社区中文版`_"
 

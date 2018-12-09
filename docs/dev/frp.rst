@@ -1,13 +1,10 @@
 FRP reverse proxy
 =================
 
-`Project Link`_
-
-`Documents CN`_
-
-`Documents EN`_
-
-`Downloads`_
+- `Project Link`_
+- `Documents CN`_
+- `Documents EN`_
+- `Downloads`_
 
 .. _Project Link: https://github.com/fatedier/frp
 .. _Documents CN: https://github.com/fatedier/frp/blob/master/README.md
@@ -26,6 +23,7 @@ Edit the ``frps.ini``::
 
 
 Write a ``/etc/systemd/system/frps.service``::
+
     [Unit]
     Description=FRP Server
     After=network.target

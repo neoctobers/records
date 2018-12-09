@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-09 10:41+0800\n"
+"POT-Creation-Date: 2018-12-09 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,73 +19,70 @@ msgstr ""
 
 #: ../../dev/frp.rst:2
 msgid "FRP reverse proxy"
-msgstr ""
+msgstr "FRP 反向代理"
 
 #: ../../dev/frp.rst:4
 msgid "`Project Link`_"
-msgstr ""
+msgstr "`项目官方链接`_"
+
+#: ../../dev/frp.rst:5
+msgid "`Documents CN`_"
+msgstr "`中文文档`_"
 
 #: ../../dev/frp.rst:6
-msgid "`Documents CN`_"
-msgstr ""
-
-#: ../../dev/frp.rst:8
 msgid "`Documents EN`_"
-msgstr ""
+msgstr "`英文文档`_"
 
-#: ../../dev/frp.rst:10
+#: ../../dev/frp.rst:7
 msgid "`Downloads`_"
 msgstr ""
 
-#: ../../dev/frp.rst:19
+#: ../../dev/frp.rst:16
 msgid "Server-side, ubuntu for example"
-msgstr ""
+msgstr "服务端，以 ubuntu 为例"
 
-#: ../../dev/frp.rst:21
+#: ../../dev/frp.rst:18
 msgid "Edit the ``frps.ini``::"
-msgstr ""
+msgstr "编辑 ``frps.ini`` 文件::"
+
+#: ../../dev/frp.rst:25
+msgid "Write a ``/etc/systemd/system/frps.service``::"
+msgstr "创建 ``/etc/systemd/system/frps.service`` 文件::"
 
 #: ../../dev/frp.rst:38
-msgid "Write a ``/etc/systemd/system/frps.service``::"
-msgstr ""
-
-#: ../../dev/frp.rst:29
-msgid "[Unit] Description=FRP Server After=network.target"
-msgstr ""
-
-#: ../../dev/frp.rst:33
-msgid "[Service] ExecStart=/path/to/frps -c /path/to/frps.ini Restart=on-abort"
-msgstr ""
-
-#: ../../dev/frp.rst:37
-msgid "[Install] WantedBy=multi-user.target"
-msgstr ""
-
-#: ../../dev/frp.rst:40
 msgid "Enable the service:"
 msgstr ""
 
-#: ../../dev/frp.rst:47
+#: ../../dev/frp.rst:45
 msgid "start / stop / restart / check status:"
 msgstr ""
 
-#: ../../dev/frp.rst:57
+#: ../../dev/frp.rst:55
 msgid "or run it in console:"
 msgstr ""
 
-#: ../../dev/frp.rst:65
+#: ../../dev/frp.rst:63
 msgid "Client-side, win10 for example"
 msgstr ""
 
-#: ../../dev/frp.rst:67
+#: ../../dev/frp.rst:65
 msgid "Edit the ``frpc.ini``::"
 msgstr ""
 
-#: ../../dev/frp.rst:78
+#: ../../dev/frp.rst:76
 msgid "Run:"
 msgstr ""
 
-#: ../../dev/frp.rst:85
+#: ../../dev/frp.rst:83
 msgid "Enjoy it!"
 msgstr ""
+
+#~ msgid "[Unit] Description=FRP Server After=network.target"
+#~ msgstr ""
+
+#~ msgid "[Service] ExecStart=/path/to/frps -c /path/to/frps.ini Restart=on-abort"
+#~ msgstr ""
+
+#~ msgid "[Install] WantedBy=multi-user.target"
+#~ msgstr ""
 

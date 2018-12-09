@@ -19,19 +19,19 @@ msgstr ""
 
 #: ../../dev/git_multi_ssh_key.rst:2
 msgid "Multiple ssh-key for git"
-msgstr ""
+msgstr "Git 多用户"
 
 #: ../../dev/git_multi_ssh_key.rst:4
 msgid "Multiple users for different repositories."
-msgstr ""
+msgstr "在不同的代码仓库使用多用户配置"
 
 #: ../../dev/git_multi_ssh_key.rst:8
 msgid "Generate multiple ssh-keys for different users"
-msgstr ""
+msgstr "为不同的用户创建对应的 ssh-key"
 
 #: ../../dev/git_multi_ssh_key.rst:10
 msgid "Different passwords is recommended."
-msgstr ""
+msgstr "建议设置不同的密码，避免用混以及被黑客入侵拷走 ``id_rsa`` 文件"
 
 #: ../../dev/git_multi_ssh_key.rst:18
 msgid "Put them to ``~/.ssh/`` directory."

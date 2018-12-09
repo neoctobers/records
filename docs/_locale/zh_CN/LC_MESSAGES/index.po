@@ -23,11 +23,11 @@ msgstr "测试翻译标题"
 
 #: ../../index.rst:4
 msgid "Personal records."
-msgstr ""
+msgstr "测试文本"
 
 #: ../../index.rst:7
 msgid "About Development"
-msgstr ""
+msgstr "有关程序与开发"
 
 #: ../../index.rst:23
 msgid "php"
@@ -39,5 +39,5 @@ msgstr ""
 
 #: ../../index.rst:39
 msgid "General"
-msgstr ""
+msgstr "一般其它项"
 

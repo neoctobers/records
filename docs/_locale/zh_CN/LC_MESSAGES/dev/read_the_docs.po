@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-09 10:41+0800\n"
+"POT-Creation-Date: 2018-12-09 13:19+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,31 +43,55 @@ msgstr ""
 msgid "Create/Update translatable files:"
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:27
+#: ../../dev/read_the_docs.rst:28
 msgid "Translate text from source language manually:"
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:33
+#: ../../dev/read_the_docs.rst:34
 msgid "Do translate, edit the ``.po`` files."
 msgstr ""
 
 #: ../../dev/read_the_docs.rst:36
-msgid "Generate the ``.mo`` files:"
+msgid "Then,"
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:42
-msgid "Build the documentation in target language:"
+#: ../../dev/read_the_docs.rst:38
+msgid "Build the documentation in target language, for preview locally:"
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:48
-msgid "``./zh_CN`` is ready."
+#: ../../dev/read_the_docs.rst:45
+msgid "BUT, WHY::"
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:50
-msgid "but, how to upload or sync the new language to RTD?"
+#: ../../dev/read_the_docs.rst:71
+msgid "``./zh_CN`` is ready, except 'index.rst'."
 msgstr ""
 
-#: ../../dev/read_the_docs.rst:54
+#: ../../dev/read_the_docs.rst:75
+msgid "Multi-languages in RTD"
+msgstr ""
+
+#: ../../dev/read_the_docs.rst:77
+msgid "manually."
+msgstr ""
+
+#: ../../dev/read_the_docs.rst:81
 msgid "Transifex"
 msgstr ""
+
+#: ../../dev/read_the_docs.rst:90
+msgid "Commands"
+msgstr ""
+
+#~ msgid "Generate the ``.mo`` files:"
+#~ msgstr ""
+
+#~ msgid "Build the documentation in target language:"
+#~ msgstr ""
+
+#~ msgid "``./zh_CN`` is ready."
+#~ msgstr ""
+
+#~ msgid "but, how to upload or sync the new language to RTD?"
+#~ msgstr ""
 
