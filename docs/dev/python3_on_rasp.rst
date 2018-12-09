@@ -58,3 +58,10 @@ Set as default python?
     $ rm /usr/bin/pip
     $ ln -s /usr/local/opt/python-3.7.1/bin/pip3.7 /usr/bin/pip
 
+
+make a ``py`` for short command:
+
+.. code-block:: console
+
+    $ ln -s /usr/local/opt/python-3.7.1/bin/python3.7 /usr/bin/py
+
