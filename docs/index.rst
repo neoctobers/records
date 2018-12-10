@@ -18,8 +18,10 @@ Personal records.
     dev/multi_commands_in_one_line
     dev/read_the_docs
     dev/settings_sync
-    dev/wave_share_4d3inch_epaper
     dev/python3_on_rasp
+    dev/pi3_disable_bt
+    dev/wave_share_4d3inch_epaper
+    dev/wave_share_4d3inch_epaper_on_rpi3bp
 
 
 .. toctree::

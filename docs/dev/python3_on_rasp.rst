@@ -65,3 +65,12 @@ make a ``py`` for short command:
 
     $ ln -s /usr/local/opt/python-3.7.1/bin/python3.7 /usr/bin/py
 
+
+Upgrade pip
+-----------
+
+.. code-block:: console
+
+    $ pip install --upgrade pip
+
+
