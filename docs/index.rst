@@ -42,13 +42,6 @@ Personal records.
 
 .. toctree::
     :maxdepth: 1
-    :caption: php
-
-    php/homestead
-
-
-.. toctree::
-    :maxdepth: 1
     :caption: python
 
     python/django
@@ -56,6 +49,20 @@ Personal records.
     python/virtualenvwrapper-win
     python/postgresql
     python/django_postgresql
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: My Python packages
+
+    pypi/xpi
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: php
+
+    php/homestead
 
 
 .. toctree::

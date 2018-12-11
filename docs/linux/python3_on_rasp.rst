@@ -40,6 +40,9 @@ Symlink
     ln -s /usr/local/opt/python-3.7.1/bin/pyvenv-3.7 /usr/bin/pyvenv-3.7
     ln -s /usr/local/opt/python-3.7.1/bin/pip3.7 /usr/bin/pip3.7
 
+    ln -s /usr/local/opt/python-3.7.1/bin/python3.7 /usr/bin/python3
+    ln -s /usr/local/opt/python-3.7.1/bin/pip3.7 /usr/bin/pip3
+
 
 Make a ``py`` for short command
 -------------------------------

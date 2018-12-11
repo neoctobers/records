@@ -17,39 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../index.rst:2
-msgid "Records of neoctobers"
-msgstr "测试翻译标题"
-
-#: ../../index.rst:4
-msgid "Personal records."
-msgstr "测试文本"
-
-#: ../../index.rst:7
-msgid "About Development"
-msgstr "有关程序与开发"
-
-#: ../../index.rst:24
-msgid "Write"
+#: ../../pypi/xpi.rst:2
+msgid "xpi - some useful functions for Raspberry Pi3B+"
 msgstr ""
 
-#: ../../index.rst:31
-msgid "Linux"
+#: ../../pypi/xpi.rst:4
+msgid "https://github.com/neoctobers/xpi"
 msgstr ""
 
-#: ../../index.rst:43
-msgid "python"
+#: ../../pypi/xpi.rst:8
+msgid "Installation"
 msgstr ""
 
-#: ../../index.rst:54
-msgid "My Python packages"
+#: ../../pypi/xpi.rst:16
+msgid "Usage"
 msgstr ""
-
-#: ../../index.rst:61
-msgid "php"
-msgstr ""
-
-#: ../../index.rst:68
-msgid "General"
-msgstr "一般其它项"
 
