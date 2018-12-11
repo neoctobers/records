@@ -1,0 +1,361 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, neoctobers
+# This file is distributed under the same license as the neoctobers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: neoctobers latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-11 10:03+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../write/rest.rst:2
+msgid "reStructuredText"
+msgstr ""
+
+#: ../../write/rest.rst:4
+msgid ""
+"reStructuredText(reST) is the default plaintext markup language used by "
+"Sphinx."
+msgstr ""
+
+#: ../../write/rest.rst:6
+msgid "http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html"
+msgstr ""
+
+#: ../../write/rest.rst:10
+msgid "Inline markup"
+msgstr ""
+
+#: ../../write/rest.rst:12
+msgid "Italics: *italics*"
+msgstr ""
+
+#: ../../write/rest.rst:13
+msgid "Bold: **bold**"
+msgstr ""
+
+#: ../../write/rest.rst:14
+msgid "Code samples: ``code samples``"
+msgstr ""
+
+#: ../../write/rest.rst:24
+msgid "Lists and Quote-like blocks"
+msgstr ""
+
+#: ../../write/rest.rst:26
+msgid "This is a bulleted list."
+msgstr ""
+
+#: ../../write/rest.rst:27
+msgid "It has two items, the second item uses two lines."
+msgstr ""
+
+#: ../../write/rest.rst:30 ../../write/rest.rst:44
+msgid "This is a numbered list."
+msgstr ""
+
+#: ../../write/rest.rst:31
+msgid "It has two items."
+msgstr ""
+
+#: ../../write/rest.rst:42
+msgid "and:"
+msgstr ""
+
+#: ../../write/rest.rst:45
+msgid "It has two items too."
+msgstr ""
+
+#: ../../write/rest.rst:53
+msgid "Nested lists"
+msgstr ""
+
+#: ../../write/rest.rst:55
+msgid "Nested lists are possible"
+msgstr ""
+
+#: ../../write/rest.rst:57
+msgid "this is"
+msgstr ""
+
+#: ../../write/rest.rst:58
+msgid "a list"
+msgstr ""
+
+#: ../../write/rest.rst:60
+msgid "with a nested list"
+msgstr ""
+
+#: ../../write/rest.rst:61
+msgid "and some subitems"
+msgstr ""
+
+#: ../../write/rest.rst:63
+msgid "and here the parent list continues"
+msgstr ""
+
+#: ../../write/rest.rst:75
+msgid ""
+"but be aware that they must be separated from the parent list items by "
+"blank lines:"
+msgstr ""
+
+#: ../../write/rest.rst:79
+msgid "Definition Lists"
+msgstr ""
+
+#: ../../write/rest.rst:84
+msgid "term (up to a line of text)"
+msgstr ""
+
+#: ../../write/rest.rst:82
+msgid "Definition of the term, which must be indented"
+msgstr ""
+
+#: ../../write/rest.rst:84
+msgid "and can even consist of multiple paragraphs"
+msgstr ""
+
+#: ../../write/rest.rst:88
+msgid "next term"
+msgstr ""
+
+#: ../../write/rest.rst:87
+msgid "Description."
+msgstr ""
+
+#: ../../write/rest.rst:100
+msgid "Note that the term cannot have more than one line of text."
+msgstr ""
+
+#: ../../write/rest.rst:104
+msgid "Quoted paragraphs"
+msgstr ""
+
+#: ../../write/rest.rst:106
+msgid "Quoted paragraphs, seems does not work."
+msgstr ""
+
+#: ../../write/rest.rst:110
+msgid "Literal blocks"
+msgstr ""
+
+#: ../../write/rest.rst:112
+msgid ""
+"Literal code blocks are introduced by ending a paragraph with the special"
+" marker ``::``."
+msgstr ""
+
+#: ../../write/rest.rst:114
+msgid ""
+"The literal block must be indented (and, like all paragraphs, separated "
+"from the surrounding ones by blank lines)::"
+msgstr ""
+
+#: ../../write/rest.rst:125
+msgid "The handling of the :: marker is smart:"
+msgstr ""
+
+#: ../../write/rest.rst:127
+msgid ""
+"If it occurs as a paragraph of its own, that paragraph is completely left"
+" out of the document."
+msgstr ""
+
+#: ../../write/rest.rst:128
+msgid "If it is preceded by whitespace, the marker is removed."
+msgstr ""
+
+#: ../../write/rest.rst:129
+msgid ""
+"If it is preceded by non-whitespace, the marker is replaced by a single "
+"colon."
+msgstr ""
+
+#: ../../write/rest.rst:133
+msgid "Doctest blocks"
+msgstr ""
+
+#: ../../write/rest.rst:135
+msgid ""
+"Doctest blocks are interactive Python sessions cut-and-pasted into "
+"docstrings. They do not require the literal blocks syntax. The doctest "
+"block must end with a blank line and should not end with with an unused "
+"prompt:"
+msgstr ""
+
+#: ../../write/rest.rst:142
+msgid "Tables"
+msgstr ""
+
+#: ../../write/rest.rst:144
+msgid "Grid tables:"
+msgstr ""
+
+#: ../../write/rest.rst:147
+msgid "Header row, column 1 (header rows optional)"
+msgstr ""
+
+#: ../../write/rest.rst:147
+msgid "Header 2"
+msgstr ""
+
+#: ../../write/rest.rst:147
+msgid "Header 3"
+msgstr ""
+
+#: ../../write/rest.rst:147
+msgid "Header 4"
+msgstr ""
+
+#: ../../write/rest.rst:150
+msgid "body row 1, column 1"
+msgstr ""
+
+#: ../../write/rest.rst:150
+msgid "column 2"
+msgstr ""
+
+#: ../../write/rest.rst:150
+msgid "column 3"
+msgstr ""
+
+#: ../../write/rest.rst:150
+msgid "column 4"
+msgstr ""
+
+#: ../../write/rest.rst:152
+msgid "body row 2"
+msgstr ""
+
+#: ../../write/rest.rst:152
+msgid "..."
+msgstr ""
+
+#: ../../write/rest.rst:167
+msgid "Simple tables:"
+msgstr ""
+
+#: ../../write/rest.rst:170
+msgid "A"
+msgstr ""
+
+#: ../../write/rest.rst:170
+msgid "B"
+msgstr ""
+
+#: ../../write/rest.rst:170
+msgid "A and B"
+msgstr ""
+
+#: ../../write/rest.rst:172 ../../write/rest.rst:173 ../../write/rest.rst:174
+msgid "False"
+msgstr ""
+
+#: ../../write/rest.rst:173 ../../write/rest.rst:174 ../../write/rest.rst:175
+msgid "True"
+msgstr ""
+
+#: ../../write/rest.rst:191
+msgid "Hyperlinks"
+msgstr ""
+
+#: ../../write/rest.rst:193
+msgid "External links:"
+msgstr ""
+
+#: ../../write/rest.rst:195
+msgid ""
+"This is a paragraph that contains a `Link text "
+"<https://neoctobers.readthedocs.io/>`_, inline:"
+msgstr ""
+
+#: ../../write/rest.rst:201
+msgid "You can also separate the link and the target definition (ref), like this:"
+msgstr ""
+
+#: ../../write/rest.rst:210
+msgid "Internal links:"
+msgstr ""
+
+#: ../../write/rest.rst:212
+msgid ""
+"Internal linking is done via a special reST role provided by Sphinx, see "
+"the section on specific markup, Cross-referencing arbitrary locations."
+msgstr ""
+
+#: ../../write/rest.rst:214
+msgid ""
+"See: http://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/roles.html#ref-role"
+msgstr ""
+
+#: ../../write/rest.rst:218
+msgid "Sections"
+msgstr ""
+
+#: ../../write/rest.rst:220
+msgid ""
+"Section headers are created by underlining (and optionally overlining) "
+"the section title with a punctuation character, at least as long as the "
+"text:"
+msgstr ""
+
+#: ../../write/rest.rst:228
+msgid "or:"
+msgstr ""
+
+#: ../../write/rest.rst:235
+msgid ""
+"Normally, there are no heading levels assigned to certain characters as "
+"the structure is determined from the succession of headings. However, "
+"this convention is used in `Python’s Style Guide for documenting "
+"<https://docs.python.org/devguide/documenting.html#style-guide>`_ which "
+"you may follow:"
+msgstr ""
+
+#: ../../write/rest.rst:237
+msgid "# with overline, for parts"
+msgstr ""
+
+#: ../../write/rest.rst:238
+msgid "\\* with overline, for chapters"
+msgstr ""
+
+#: ../../write/rest.rst:239
+msgid "=, for sections"
+msgstr ""
+
+#: ../../write/rest.rst:240
+msgid "-, for subsections"
+msgstr ""
+
+#: ../../write/rest.rst:241
+msgid "^, for subsubsections"
+msgstr ""
+
+#: ../../write/rest.rst:242
+msgid "\", for paragraphs"
+msgstr ""
+
+#: ../../write/rest.rst:244
+msgid "For me, in this reST guide sample, I prefer ``-----------``."
+msgstr ""
+
+#: ../../write/rest.rst:248
+msgid "TBC"
+msgstr ""
+
+#: ../../write/rest.rst:250
+msgid "To be continued..."
+msgstr ""
+

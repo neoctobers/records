@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, neoctobers
+# This file is distributed under the same license as the neoctobers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: neoctobers latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-11 10:03+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../linux/ssr_on_linux.rst:2
+msgid "ShadowsocksR on Linux, Raspberry Pi3B+ for example"
+msgstr ""
+
+#: ../../linux/ssr_on_linux.rst:4
+msgid "Under the user ``pi``"
+msgstr ""
+
+#: ../../linux/ssr_on_linux.rst:8
+msgid "Install"
+msgstr ""
+
+#: ../../linux/ssr_on_linux.rst:17
+msgid "Config"
+msgstr ""
+
+#: ../../linux/ssr_on_linux.rst:19
+msgid "Make a config file in ``/path/to/config.json``"
+msgstr ""
+
+#: ../../linux/ssr_on_linux.rst:21
+msgid "Default:"
+msgstr ""
+
+#: ../../linux/ssr_on_linux.rst:51
+msgid "Main lines:"
+msgstr ""
+
+#: ../../linux/ssr_on_linux.rst:71
+msgid "Try to run"
+msgstr ""
+
+#: ../../linux/ssr_on_linux.rst:79
+msgid "Make it as a service"
+msgstr ""
+
+#: ../../linux/ssr_on_linux.rst:81
+msgid "Write a ``/etc/systemd/system/ssr.service``:"
+msgstr ""
+
+#: ../../linux/ssr_on_linux.rst:96
+msgid "Enable the service:"
+msgstr ""
+
+#: ../../linux/ssr_on_linux.rst:102
+msgid "Start / stop / restart / check status:"
+msgstr ""
+

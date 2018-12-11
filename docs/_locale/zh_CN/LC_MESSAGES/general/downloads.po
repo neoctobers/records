@@ -17,35 +17,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../index.rst:2
-msgid "Records of neoctobers"
-msgstr "测试翻译标题"
-
-#: ../../index.rst:4
-msgid "Personal records."
-msgstr "测试文本"
-
-#: ../../index.rst:7
-msgid "About Development"
-msgstr "有关程序与开发"
-
-#: ../../index.rst:24
-msgid "Write"
+#: ../../general/downloads.rst:2
+msgid "Downloads"
 msgstr ""
 
-#: ../../index.rst:31
-msgid "Linux"
+#: ../../general/downloads.rst:6
+msgid "Go-lang"
 msgstr ""
 
-#: ../../index.rst:41
-msgid "php"
+#: ../../general/downloads.rst:8
+msgid "https://golang.org/dl/"
 msgstr ""
 
-#: ../../index.rst:48
-msgid "python"
+#: ../../general/downloads.rst:12
+msgid "Lightshot"
 msgstr ""
 
-#: ../../index.rst:59
-msgid "General"
-msgstr "一般其它项"
+#: ../../general/downloads.rst:14
+msgid "An excellent snapshot tool."
+msgstr ""
+
+#: ../../general/downloads.rst:16
+msgid "https://app.prntscr.com/"
+msgstr ""
 

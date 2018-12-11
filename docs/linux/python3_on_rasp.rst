@@ -41,25 +41,8 @@ Symlink
     ln -s /usr/local/opt/python-3.7.1/bin/pip3.7 /usr/bin/pip3.7
 
 
-Set as default python?
-----------------------
-
-.. code-block:: console
-
-    $ rm /usr/bin/pydoc
-    $ ln -s /usr/local/opt/python-3.7.1/bin/pydoc3.7 /usr/bin/pydoc
-
-    $ rm /usr/bin/python
-    $ ln -s /usr/local/opt/python-3.7.1/bin/python3.7 /usr/bin/python
-
-    $ rm /usr/bin/pyvenv
-    $ ln -s /usr/local/opt/python-3.7.1/bin/pyvenv-3.7 /usr/bin/pyvenv
-
-    $ rm /usr/bin/pip
-    $ ln -s /usr/local/opt/python-3.7.1/bin/pip3.7 /usr/bin/pip
-
-
-make a ``py`` for short command:
+Make a ``py`` for short command
+-------------------------------
 
 .. code-block:: console
 
@@ -71,6 +54,6 @@ Upgrade pip
 
 .. code-block:: console
 
-    $ pip install --upgrade pip
+    $ pip3 install --upgrade pip
 
 

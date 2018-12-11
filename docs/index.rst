@@ -18,10 +18,7 @@ Personal records.
     dev/multi_commands_in_one_line
     dev/read_the_docs
     dev/settings_sync
-    dev/python3_on_rasp
-    dev/pi3_disable_bt
     dev/wave_share_4d3inch_epaper
-    dev/wave_share_4d3inch_epaper_on_rpi3bp
 
 
 .. toctree::
@@ -29,6 +26,17 @@ Personal records.
     :caption: Write
 
     write/rest
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Linux
+
+    linux/supervisor
+    linux/ssr_on_linux
+    linux/python3_on_rasp
+    linux/pi3_disable_bt
+    linux/wave_share_4d3inch_epaper_on_rpi3bp
 
 
 .. toctree::
@@ -53,4 +61,5 @@ Personal records.
     :maxdepth: 2
     :caption: General
 
-    downloads
+    general/downloads
+

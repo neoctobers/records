@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-09 22:17+0800\n"
+"POT-Creation-Date: 2018-12-11 10:37+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,31 +17,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../dev/python3_on_rasp.rst:2
+#: ../../linux/python3_on_rasp.rst:2
 msgid "Python3.7.1 on Raspberry 3B+"
 msgstr ""
 
-#: ../../dev/python3_on_rasp.rst:4
+#: ../../linux/python3_on_rasp.rst:4
 msgid "Make sure you are under root."
 msgstr ""
 
-#: ../../dev/python3_on_rasp.rst:7
+#: ../../linux/python3_on_rasp.rst:7
 msgid "Install dependence"
 msgstr ""
 
-#: ../../dev/python3_on_rasp.rst:16
+#: ../../linux/python3_on_rasp.rst:16
 msgid "Download and install Python-3.7.1"
 msgstr ""
 
-#: ../../dev/python3_on_rasp.rst:29
+#: ../../linux/python3_on_rasp.rst:29
 msgid "``--with--ssl`` is important!"
 msgstr ""
 
-#: ../../dev/python3_on_rasp.rst:33
+#: ../../linux/python3_on_rasp.rst:33
 msgid "Symlink"
 msgstr ""
 
-#: ../../dev/python3_on_rasp.rst:45
-msgid "Set as default python?"
+#: ../../linux/python3_on_rasp.rst:45
+msgid "Make a ``py`` for short command"
 msgstr ""
+
+#: ../../linux/python3_on_rasp.rst:53
+msgid "Upgrade pip"
+msgstr ""
+
+#~ msgid "Set as default python?"
+#~ msgstr ""
+
+#~ msgid "make a ``py`` for short command:"
+#~ msgstr ""
 
