@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, neoctobers
+# This file is distributed under the same license as the neoctobers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: neoctobers latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-11 11:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../linux/proxychains.rst:2
+msgid "Proxychains"
+msgstr ""
+
+#: ../../linux/proxychains.rst:4
+msgid "Run a command behind a socks5 proxy."
+msgstr ""
+
+#: ../../linux/proxychains.rst:6
+msgid "https://github.com/rofl0r/proxychains-ng"
+msgstr ""
+
+#: ../../linux/proxychains.rst:10
+msgid "Installation"
+msgstr ""
+
+#: ../../linux/proxychains.rst:21
+msgid "Configuration"
+msgstr ""
+
+#: ../../linux/proxychains.rst:23
+msgid "Make a config file:"
+msgstr ""
+
+#: ../../linux/proxychains.rst:29
+msgid ""
+"It will leave a ``proxychains.conf`` under ``/usr/local/etc/``, just edit"
+" it:"
+msgstr ""
+
+#: ../../linux/proxychains.rst:35
+msgid "That is local ``127.0.0.1:1080`` for example."
+msgstr ""
+
+#: ../../linux/proxychains.rst:39
+msgid "Check and usage"
+msgstr ""
+

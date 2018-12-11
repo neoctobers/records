@@ -32,8 +32,9 @@ Personal records.
     :maxdepth: 1
     :caption: Linux
 
-    linux/supervisor
     linux/ssr_on_linux
+    linux/proxychains
+    linux/supervisor
     linux/python3_on_rasp
     linux/pi3_disable_bt
     linux/wave_share_4d3inch_epaper_on_rpi3bp
