@@ -37,6 +37,7 @@ Personal records.
     linux/ssr_on_linux
     linux/proxychains
     linux/supervisor
+    linux/mysql_for_python3
     linux/pi3_disable_bt
     linux/wave_share_4d3inch_epaper_on_rpi3bp
 

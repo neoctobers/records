@@ -1,5 +1,5 @@
-Github: Some useful scripts
-===========================
+Github: scripts - Some useful scripts
+=====================================
 
 https://github.com/neoctobers/scripts
 

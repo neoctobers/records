@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 14:21+0800\n"
+"POT-Creation-Date: 2018-12-12 18:03+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../repo/scripts.rst:2
-msgid "Some useful scripts"
+msgid "Github: scripts - Some useful scripts"
 msgstr ""
 
 #: ../../repo/scripts.rst:4
@@ -58,5 +58,8 @@ msgstr ""
 #~ "Git clone to local, add the "
 #~ "absolute path to ``PATH``. Then use "
 #~ "the ``.bat`` commands everywhere."
+#~ msgstr ""
+
+#~ msgid "Some useful scripts"
 #~ msgstr ""
 
