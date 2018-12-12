@@ -1,4 +1,4 @@
-PyPI: xpi - some useful functions for Raspberry Pi3B+
+PyPI: xpi - Some useful functions for Raspberry Pi3B+
 =====================================================
 
 https://github.com/neoctobers/xpi

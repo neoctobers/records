@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 11:29+0800\n"
+"POT-Creation-Date: 2018-12-12 14:42+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../index.rst:2
 msgid "Records of neoctobers"
-msgstr "测试翻译标题"
+msgstr "一些记录 by neoctobers"
 
 #: ../../index.rst:4
 msgid "Personal records."
-msgstr "测试文本"
+msgstr ""
 
 #: ../../index.rst:7
 msgid "About Development"
@@ -31,27 +31,29 @@ msgstr "有关程序与开发"
 
 #: ../../index.rst:24
 msgid "Write"
-msgstr ""
+msgstr "有关写作"
 
 #: ../../index.rst:31
 msgid "Linux"
 msgstr ""
 
 #: ../../index.rst:44
-msgid "python"
-msgstr ""
+#, fuzzy
+msgid "Python"
+msgstr "Python 万能胶水"
 
 #: ../../index.rst:56
 msgid "Open-source"
-msgstr ""
+msgstr "开源代码"
 
 #: ../../index.rst:64
-msgid "php"
-msgstr ""
+#, fuzzy
+msgid "PHP"
+msgstr "PHP 拍黄片"
 
 #: ../../index.rst:71
 msgid "General"
-msgstr "一般其它项"
+msgstr "其它"
 
 #~ msgid "My Python packages"
 #~ msgstr ""

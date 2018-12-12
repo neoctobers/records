@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 11:29+0800\n"
+"POT-Creation-Date: 2018-12-12 14:42+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../repo/xpi.rst:2
-msgid "PyPI: xpi - some useful functions for Raspberry Pi3B+"
+msgid "PyPI: xpi - Some useful functions for Raspberry Pi3B+"
 msgstr ""
 
 #: ../../repo/xpi.rst:4
@@ -32,4 +32,7 @@ msgstr ""
 #: ../../repo/xpi.rst:16
 msgid "Usage"
 msgstr ""
+
+#~ msgid "PyPI: xpi - some useful functions for Raspberry Pi3B+"
+#~ msgstr ""
 

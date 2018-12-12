@@ -43,7 +43,7 @@ Personal records.
 
 .. toctree::
     :maxdepth: 1
-    :caption: python
+    :caption: Python
 
     python/python3_cookbook
     python/django
@@ -63,7 +63,7 @@ Personal records.
 
 .. toctree::
     :maxdepth: 1
-    :caption: php
+    :caption: PHP
 
     php/homestead
 
