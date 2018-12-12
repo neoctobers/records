@@ -1,3 +1,9 @@
-.tx/
+# IDE
 .idea/
+.vscode/
+
+# Transifex
+.tx/
+
+# MO
 *.mo
