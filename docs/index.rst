@@ -55,9 +55,10 @@ Personal records.
 
 .. toctree::
     :maxdepth: 1
-    :caption: My Python packages
+    :caption: Open-source
 
-    pypi/xpi
+    repo/scripts
+    repo/xpi
 
 
 .. toctree::

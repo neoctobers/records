@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-11 10:03+0800\n"
+"POT-Creation-Date: 2018-12-12 09:36+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,161 +31,167 @@ msgstr ""
 msgid "http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html"
 msgstr ""
 
-#: ../../write/rest.rst:10
-msgid "Inline markup"
+#: ../../write/rest.rst:8
+msgid ""
+"And, `[Official] reStructuredText Markup Specification "
+"<http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_"
 msgstr ""
 
 #: ../../write/rest.rst:12
-msgid "Italics: *italics*"
-msgstr ""
-
-#: ../../write/rest.rst:13
-msgid "Bold: **bold**"
+msgid "Inline markup"
 msgstr ""
 
 #: ../../write/rest.rst:14
+msgid "Italics: *italics*"
+msgstr ""
+
+#: ../../write/rest.rst:15
+msgid "Bold: **bold**"
+msgstr ""
+
+#: ../../write/rest.rst:16
 msgid "Code samples: ``code samples``"
 msgstr ""
 
-#: ../../write/rest.rst:24
+#: ../../write/rest.rst:26
 msgid "Lists and Quote-like blocks"
 msgstr ""
 
-#: ../../write/rest.rst:26
+#: ../../write/rest.rst:28
 msgid "This is a bulleted list."
 msgstr ""
 
-#: ../../write/rest.rst:27
+#: ../../write/rest.rst:29
 msgid "It has two items, the second item uses two lines."
 msgstr ""
 
-#: ../../write/rest.rst:30 ../../write/rest.rst:44
+#: ../../write/rest.rst:32 ../../write/rest.rst:46
 msgid "This is a numbered list."
 msgstr ""
 
-#: ../../write/rest.rst:31
+#: ../../write/rest.rst:33
 msgid "It has two items."
 msgstr ""
 
-#: ../../write/rest.rst:42
+#: ../../write/rest.rst:44
 msgid "and:"
 msgstr ""
 
-#: ../../write/rest.rst:45
+#: ../../write/rest.rst:47
 msgid "It has two items too."
 msgstr ""
 
-#: ../../write/rest.rst:53
+#: ../../write/rest.rst:55
 msgid "Nested lists"
 msgstr ""
 
-#: ../../write/rest.rst:55
+#: ../../write/rest.rst:57
 msgid "Nested lists are possible"
 msgstr ""
 
-#: ../../write/rest.rst:57
+#: ../../write/rest.rst:59
 msgid "this is"
 msgstr ""
 
-#: ../../write/rest.rst:58
+#: ../../write/rest.rst:60
 msgid "a list"
 msgstr ""
 
-#: ../../write/rest.rst:60
+#: ../../write/rest.rst:62
 msgid "with a nested list"
 msgstr ""
 
-#: ../../write/rest.rst:61
+#: ../../write/rest.rst:63
 msgid "and some subitems"
 msgstr ""
 
-#: ../../write/rest.rst:63
+#: ../../write/rest.rst:65
 msgid "and here the parent list continues"
 msgstr ""
 
-#: ../../write/rest.rst:75
+#: ../../write/rest.rst:77
 msgid ""
 "but be aware that they must be separated from the parent list items by "
 "blank lines:"
 msgstr ""
 
-#: ../../write/rest.rst:79
+#: ../../write/rest.rst:81
 msgid "Definition Lists"
 msgstr ""
 
-#: ../../write/rest.rst:84
+#: ../../write/rest.rst:86
 msgid "term (up to a line of text)"
 msgstr ""
 
-#: ../../write/rest.rst:82
+#: ../../write/rest.rst:84
 msgid "Definition of the term, which must be indented"
 msgstr ""
 
-#: ../../write/rest.rst:84
+#: ../../write/rest.rst:86
 msgid "and can even consist of multiple paragraphs"
 msgstr ""
 
-#: ../../write/rest.rst:88
+#: ../../write/rest.rst:90
 msgid "next term"
 msgstr ""
 
-#: ../../write/rest.rst:87
+#: ../../write/rest.rst:89
 msgid "Description."
 msgstr ""
 
-#: ../../write/rest.rst:100
+#: ../../write/rest.rst:102
 msgid "Note that the term cannot have more than one line of text."
 msgstr ""
 
-#: ../../write/rest.rst:104
+#: ../../write/rest.rst:106
 msgid "Quoted paragraphs"
 msgstr ""
 
-#: ../../write/rest.rst:106
+#: ../../write/rest.rst:108
 msgid "Quoted paragraphs, seems does not work."
 msgstr ""
 
-#: ../../write/rest.rst:110
+#: ../../write/rest.rst:112
 msgid "Literal blocks"
 msgstr ""
 
-#: ../../write/rest.rst:112
+#: ../../write/rest.rst:114
 msgid ""
 "Literal code blocks are introduced by ending a paragraph with the special"
 " marker ``::``."
 msgstr ""
 
-#: ../../write/rest.rst:114
+#: ../../write/rest.rst:116
 msgid ""
 "The literal block must be indented (and, like all paragraphs, separated "
 "from the surrounding ones by blank lines)::"
 msgstr ""
 
-#: ../../write/rest.rst:125
+#: ../../write/rest.rst:127
 msgid "The handling of the :: marker is smart:"
 msgstr ""
 
-#: ../../write/rest.rst:127
+#: ../../write/rest.rst:129
 msgid ""
 "If it occurs as a paragraph of its own, that paragraph is completely left"
 " out of the document."
 msgstr ""
 
-#: ../../write/rest.rst:128
+#: ../../write/rest.rst:130
 msgid "If it is preceded by whitespace, the marker is removed."
 msgstr ""
 
-#: ../../write/rest.rst:129
+#: ../../write/rest.rst:131
 msgid ""
 "If it is preceded by non-whitespace, the marker is replaced by a single "
 "colon."
 msgstr ""
 
-#: ../../write/rest.rst:133
+#: ../../write/rest.rst:135
 msgid "Doctest blocks"
 msgstr ""
 
-#: ../../write/rest.rst:135
+#: ../../write/rest.rst:137
 msgid ""
 "Doctest blocks are interactive Python sessions cut-and-pasted into "
 "docstrings. They do not require the literal blocks syntax. The doctest "
@@ -193,128 +199,128 @@ msgid ""
 "prompt:"
 msgstr ""
 
-#: ../../write/rest.rst:142
+#: ../../write/rest.rst:144
 msgid "Tables"
 msgstr ""
 
-#: ../../write/rest.rst:144
+#: ../../write/rest.rst:146
 msgid "Grid tables:"
 msgstr ""
 
-#: ../../write/rest.rst:147
+#: ../../write/rest.rst:149
 msgid "Header row, column 1 (header rows optional)"
 msgstr ""
 
-#: ../../write/rest.rst:147
+#: ../../write/rest.rst:149
 msgid "Header 2"
 msgstr ""
 
-#: ../../write/rest.rst:147
+#: ../../write/rest.rst:149
 msgid "Header 3"
 msgstr ""
 
-#: ../../write/rest.rst:147
+#: ../../write/rest.rst:149
 msgid "Header 4"
 msgstr ""
 
-#: ../../write/rest.rst:150
+#: ../../write/rest.rst:152
 msgid "body row 1, column 1"
 msgstr ""
 
-#: ../../write/rest.rst:150
+#: ../../write/rest.rst:152
 msgid "column 2"
 msgstr ""
 
-#: ../../write/rest.rst:150
+#: ../../write/rest.rst:152
 msgid "column 3"
 msgstr ""
 
-#: ../../write/rest.rst:150
+#: ../../write/rest.rst:152
 msgid "column 4"
 msgstr ""
 
-#: ../../write/rest.rst:152
+#: ../../write/rest.rst:154
 msgid "body row 2"
 msgstr ""
 
-#: ../../write/rest.rst:152
+#: ../../write/rest.rst:154
 msgid "..."
 msgstr ""
 
-#: ../../write/rest.rst:167
+#: ../../write/rest.rst:169
 msgid "Simple tables:"
 msgstr ""
 
-#: ../../write/rest.rst:170
+#: ../../write/rest.rst:172
 msgid "A"
 msgstr ""
 
-#: ../../write/rest.rst:170
+#: ../../write/rest.rst:172
 msgid "B"
 msgstr ""
 
-#: ../../write/rest.rst:170
+#: ../../write/rest.rst:172
 msgid "A and B"
 msgstr ""
 
-#: ../../write/rest.rst:172 ../../write/rest.rst:173 ../../write/rest.rst:174
+#: ../../write/rest.rst:174 ../../write/rest.rst:175 ../../write/rest.rst:176
 msgid "False"
 msgstr ""
 
-#: ../../write/rest.rst:173 ../../write/rest.rst:174 ../../write/rest.rst:175
+#: ../../write/rest.rst:175 ../../write/rest.rst:176 ../../write/rest.rst:177
 msgid "True"
 msgstr ""
 
-#: ../../write/rest.rst:191
+#: ../../write/rest.rst:193
 msgid "Hyperlinks"
 msgstr ""
 
-#: ../../write/rest.rst:193
+#: ../../write/rest.rst:195
 msgid "External links:"
 msgstr ""
 
-#: ../../write/rest.rst:195
+#: ../../write/rest.rst:197
 msgid ""
 "This is a paragraph that contains a `Link text "
 "<https://neoctobers.readthedocs.io/>`_, inline:"
 msgstr ""
 
-#: ../../write/rest.rst:201
+#: ../../write/rest.rst:203
 msgid "You can also separate the link and the target definition (ref), like this:"
 msgstr ""
 
-#: ../../write/rest.rst:210
+#: ../../write/rest.rst:212
 msgid "Internal links:"
 msgstr ""
 
-#: ../../write/rest.rst:212
+#: ../../write/rest.rst:214
 msgid ""
 "Internal linking is done via a special reST role provided by Sphinx, see "
 "the section on specific markup, Cross-referencing arbitrary locations."
 msgstr ""
 
-#: ../../write/rest.rst:214
+#: ../../write/rest.rst:216
 msgid ""
 "See: http://www.sphinx-"
 "doc.org/en/master/usage/restructuredtext/roles.html#ref-role"
 msgstr ""
 
-#: ../../write/rest.rst:218
+#: ../../write/rest.rst:220
 msgid "Sections"
 msgstr ""
 
-#: ../../write/rest.rst:220
+#: ../../write/rest.rst:222
 msgid ""
 "Section headers are created by underlining (and optionally overlining) "
 "the section title with a punctuation character, at least as long as the "
 "text:"
 msgstr ""
 
-#: ../../write/rest.rst:228
+#: ../../write/rest.rst:230
 msgid "or:"
 msgstr ""
 
-#: ../../write/rest.rst:235
+#: ../../write/rest.rst:237
 msgid ""
 "Normally, there are no heading levels assigned to certain characters as "
 "the structure is determined from the succession of headings. However, "
@@ -323,39 +329,39 @@ msgid ""
 "you may follow:"
 msgstr ""
 
-#: ../../write/rest.rst:237
+#: ../../write/rest.rst:239
 msgid "# with overline, for parts"
 msgstr ""
 
-#: ../../write/rest.rst:238
+#: ../../write/rest.rst:240
 msgid "\\* with overline, for chapters"
 msgstr ""
 
-#: ../../write/rest.rst:239
+#: ../../write/rest.rst:241
 msgid "=, for sections"
 msgstr ""
 
-#: ../../write/rest.rst:240
+#: ../../write/rest.rst:242
 msgid "-, for subsections"
 msgstr ""
 
-#: ../../write/rest.rst:241
+#: ../../write/rest.rst:243
 msgid "^, for subsubsections"
 msgstr ""
 
-#: ../../write/rest.rst:242
+#: ../../write/rest.rst:244
 msgid "\", for paragraphs"
 msgstr ""
 
-#: ../../write/rest.rst:244
+#: ../../write/rest.rst:246
 msgid "For me, in this reST guide sample, I prefer ``-----------``."
 msgstr ""
 
-#: ../../write/rest.rst:248
+#: ../../write/rest.rst:250
 msgid "TBC"
 msgstr ""
 
-#: ../../write/rest.rst:250
+#: ../../write/rest.rst:252
 msgid "To be continued..."
 msgstr ""
 

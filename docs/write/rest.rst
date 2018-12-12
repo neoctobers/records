@@ -5,6 +5,8 @@ reStructuredText(reST) is the default plaintext markup language used by Sphinx.
 
 http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 
+And, `[Official] reStructuredText Markup Specification <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_
+
 
 Inline markup
 -------------
