@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-06 23:59+0800\n"
+"POT-Creation-Date: 2018-12-12 13:50+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,22 +18,92 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../php/homestead.rst:2
-msgid "Homestead"
+msgid "Lavarel-Homestead on Win10"
 msgstr ""
 
 #: ../../php/homestead.rst:4
-msgid "Homestead."
-msgstr ""
-
-#: ../../php/homestead.rst:7
-msgid "laravel-homestead"
-msgstr ""
-
-#: ../../php/homestead.rst:9
 msgid "https://laravel.com/docs/5.7/homestead"
 msgstr ""
 
-#: ../../php/homestead.rst:12
-msgid "reload::"
+#: ../../php/homestead.rst:9
+msgid "VirtualBox and Vagrant"
 msgstr ""
+
+#: ../../php/homestead.rst:11
+msgid "Download and install:"
+msgstr ""
+
+#: ../../php/homestead.rst:13
+msgid "VirtualBox: https://www.virtualbox.org/wiki/Downloads"
+msgstr ""
+
+#: ../../php/homestead.rst:14
+msgid "Vagrant: https://www.vagrantup.com/downloads.html"
+msgstr ""
+
+#: ../../php/homestead.rst:19
+msgid "Clone Homestead"
+msgstr ""
+
+#: ../../php/homestead.rst:28
+msgid "Download Laravel Homestead Box file"
+msgstr ""
+
+#: ../../php/homestead.rst:30
+msgid "Index page: https://app.vagrantup.com/laravel/boxes/homestead"
+msgstr ""
+
+#: ../../php/homestead.rst:32
+msgid ""
+"Find the latest version, ``v6.4.0`` for example, copy the url "
+"``https://app.vagrantup.com/laravel/boxes/homestead/versions/6.4.0``, "
+"append ``/providers/virtualbox.box``, it will be "
+"``https://app.vagrantup.com/laravel/boxes/homestead/versions/6.4.0/providers/virtualbox.box``."
+msgstr ""
+
+#: ../../php/homestead.rst:34
+msgid ""
+"Download it to the homestead directory, and create a file "
+"``virtualbox.json``:"
+msgstr ""
+
+#: ../../php/homestead.rst:52
+msgid "Add virtualbox to vagrant"
+msgstr ""
+
+#: ../../php/homestead.rst:54
+msgid "Under the homestead directory:"
+msgstr ""
+
+#: ../../php/homestead.rst:69
+msgid "Launch"
+msgstr ""
+
+#: ../../php/homestead.rst:75
+msgid "Or use a ``.bat`` script."
+msgstr ""
+
+#~ msgid "Homestead"
+#~ msgstr ""
+
+#~ msgid "Homestead."
+#~ msgstr ""
+
+#~ msgid "laravel-homestead"
+#~ msgstr ""
+
+#~ msgid "reload::"
+#~ msgstr ""
+
+#~ msgid "Download it to homestead directory."
+#~ msgstr ""
+
+#~ msgid "Create a .json file"
+#~ msgstr ""
+
+#~ msgid "``virtualbox.json``:"
+#~ msgstr ""
+
+#~ msgid "Under homestead directory:"
+#~ msgstr ""
 

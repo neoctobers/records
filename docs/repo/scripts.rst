@@ -5,10 +5,17 @@ https://github.com/neoctobers/scripts
 
 
 
-Download
---------
+Clone and config
+----------------
 
-Git clone to local, add the absolute path to ``PATH``. Then use the ``.bat`` commands everywhere.
+.. code-block:: console
+
+    $ git clone git@github.com:neoctobers/scripts.git
+
+
+Add the absolute path to ``PATH``.
+
+Then you can use these ``.bat`` commands everywhere.
 
 
 
