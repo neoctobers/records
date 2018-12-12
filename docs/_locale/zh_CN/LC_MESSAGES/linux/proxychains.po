@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-11 11:19+0800\n"
+"POT-Creation-Date: 2018-12-12 22:22+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../linux/proxychains.rst:2
-msgid "Proxychains"
+msgid "Proxychains-NG"
 msgstr ""
 
 #: ../../linux/proxychains.rst:4
@@ -29,29 +29,56 @@ msgstr ""
 msgid "https://github.com/rofl0r/proxychains-ng"
 msgstr ""
 
-#: ../../linux/proxychains.rst:10
+#: ../../linux/proxychains.rst:11
 msgid "Installation"
 msgstr ""
 
 #: ../../linux/proxychains.rst:21
+msgid "Make the name shorter:"
+msgstr ""
+
+#: ../../linux/proxychains.rst:30
 msgid "Configuration"
 msgstr ""
 
-#: ../../linux/proxychains.rst:23
-msgid "Make a config file:"
+#: ../../linux/proxychains.rst:32
+msgid "Write config file ``/etc/proxychains.conf``:"
 msgstr ""
 
-#: ../../linux/proxychains.rst:29
+#: ../../linux/proxychains.rst:46
+msgid "PS: Port 1080 is listened by a Shadowsocks or shadowsocksR."
+msgstr ""
+
+#: ../../linux/proxychains.rst:51
 msgid ""
-"It will leave a ``proxychains.conf`` under ``/usr/local/etc/``, just edit"
-" it:"
+"Original ``proxychains.conf`` file: `proxychains.conf on Github.com`_ or "
+"`in RAW format`_"
 msgstr ""
 
-#: ../../linux/proxychains.rst:35
-msgid "That is local ``127.0.0.1:1080`` for example."
-msgstr ""
-
-#: ../../linux/proxychains.rst:39
+#: ../../linux/proxychains.rst:59
 msgid "Check and usage"
 msgstr ""
+
+#~ msgid "Make a config file:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It will leave a ``proxychains.conf`` "
+#~ "under ``/usr/local/etc/``, just edit it:"
+#~ msgstr ""
+
+#~ msgid "That is local ``127.0.0.1:1080`` for example."
+#~ msgstr ""
+
+#~ msgid "Proxychains"
+#~ msgstr ""
+
+#~ msgid "Original ``proxychains.conf``:"
+#~ msgstr ""
+
+#~ msgid "Original ``proxychains.conf`` FILE:"
+#~ msgstr ""
+
+#~ msgid "`proxychains.conf on Github.com`_ and `RAW Format`_"
+#~ msgstr ""
 

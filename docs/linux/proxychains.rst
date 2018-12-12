@@ -1,9 +1,10 @@
-Proxychains
-===========
+Proxychains-NG
+==============
 
 Run a command behind a socks5 proxy.
 
 https://github.com/rofl0r/proxychains-ng
+
 
 
 Installation
@@ -17,22 +18,41 @@ Installation
     $ make && make install
 
 
-Configuration
--------------
-
-Make a config file:
+Make the name shorter:
 
 .. code-block:: console
 
-    $ make install-config
+    $ sudo ln -s /usr/local/bin/porxychains4 /usr/local/bin/px4
 
-It will leave a ``proxychains.conf`` under ``/usr/local/etc/``, just edit it:
+
+
+Configuration
+-------------
+
+Write config file ``/etc/proxychains.conf``:
 
 .. code-block:: text
 
+    strict_chain
+    proxy_dns
+    remote_dns_subnet 224
+    tcp_read_time_out 15000
+    tcp_connect_time_out 8000
+
+    [ProxyList]
     socks5 127.0.0.1 1080
 
-That is local ``127.0.0.1:1080`` for example.
+
+PS: Port 1080 is listened by a Shadowsocks or shadowsocksR.
+
+
+.. NOTE::
+
+    Original ``proxychains.conf`` file: `proxychains.conf on Github.com`_ or `in RAW format`_
+
+    .. _proxychains.conf on Github.com: https://github.com/rofl0r/proxychains-ng/blob/master/src/proxychains.conf
+    .. _in RAW format: https://raw.githubusercontent.com/rofl0r/proxychains-ng/master/src/proxychains.conf
+
 
 
 Check and usage
@@ -40,6 +60,7 @@ Check and usage
 
 .. code-block:: console
 
-    $ proxychains4 curl https://api.myip.com/
+    $ px4 curl https://api.myip.com/
+
 
 
