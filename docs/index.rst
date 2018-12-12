@@ -32,6 +32,7 @@ Personal records.
     :maxdepth: 1
     :caption: Linux
 
+    linux/tutorial
     linux/ssr_on_linux
     linux/proxychains
     linux/supervisor
@@ -44,6 +45,7 @@ Personal records.
     :maxdepth: 1
     :caption: python
 
+    python/python3_cookbook
     python/django
     python/django_orm
     python/virtualenvwrapper-win
