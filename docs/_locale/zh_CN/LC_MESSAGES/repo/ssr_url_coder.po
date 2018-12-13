@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-13 14:34+0800\n"
+"POT-Creation-Date: 2018-12-13 16:13+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,33 +22,60 @@ msgid "PyPI: ssr-url-coder - Shadowsocks(R) URL Decoder/Encoder"
 msgstr ""
 
 #: ../../repo/ssr_url_coder.rst:4
-msgid "Subscription supported."
+msgid "Can decode a ``ssr://`` or ``ss://`` URL to:"
 msgstr ""
 
-#: ../../repo/ssr_url_coder.rst:8
-msgid "Installation"
-msgstr ""
-
-#: ../../repo/ssr_url_coder.rst:15
-msgid "Decode a ``ssr://`` or ``ss://`` URL to:"
-msgstr ""
-
-#: ../../repo/ssr_url_coder.rst:17
+#: ../../repo/ssr_url_coder.rst:6
 msgid "config dict"
 msgstr ""
 
-#: ../../repo/ssr_url_coder.rst:18
+#: ../../repo/ssr_url_coder.rst:7
 msgid "plain text"
 msgstr ""
 
-#: ../../repo/ssr_url_coder.rst:19
-msgid "``.json`` file (TODO)"
+#: ../../repo/ssr_url_coder.rst:8
+msgid "``.json`` file"
 msgstr ""
 
-#: ../../repo/ssr_url_coder.rst:20
-msgid "..."
+#: ../../repo/ssr_url_coder.rst:11
+msgid "Subscription supported now."
+msgstr ""
+
+#: ../../repo/ssr_url_coder.rst:16
+msgid "Installation"
+msgstr ""
+
+#: ../../repo/ssr_url_coder.rst:25
+msgid "Decode methods"
+msgstr ""
+
+#: ../../repo/ssr_url_coder.rst:52
+msgid "Subscribe method"
+msgstr ""
+
+#: ../../repo/ssr_url_coder.rst:65
+msgid "ToDo"
+msgstr ""
+
+#: ../../repo/ssr_url_coder.rst:67
+msgid "All about encode? Maybe."
 msgstr ""
 
 #~ msgid ".json file (TODO)"
+#~ msgstr ""
+
+#~ msgid "Subscription supported."
+#~ msgstr ""
+
+#~ msgid "Decode a ``ssr://`` or ``ss://`` URL to:"
+#~ msgstr ""
+
+#~ msgid "``.json`` file (TODO)"
+#~ msgstr ""
+
+#~ msgid "..."
+#~ msgstr ""
+
+#~ msgid "Usage"
 #~ msgstr ""
 
