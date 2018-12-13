@@ -60,6 +60,7 @@ Personal records.
 
     repo/scripts
     repo/xpi
+    repo/ssr_url_coder
 
 
 .. toctree::
