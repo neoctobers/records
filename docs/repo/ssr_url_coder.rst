@@ -21,8 +21,21 @@ Installation
 
 
 
-Decode methods
---------------
+Encode
+------
+
+.. code-block:: python
+
+    import ssr_url_coder
+
+    config_dict = ...
+
+    url = ssr_url_coder.encode(config_dict)
+
+
+
+Decode
+------
 
 .. code-block:: python
 
@@ -30,13 +43,11 @@ Decode methods
 
     url = 'ssr://...'
 
-    config_dict = ssr_url_coder.url2dict(url)
-    print('config_dict')
-    print(config_dict)
+    config_dict = ssr_url_coder.decode(url)
+    print('config_dict:\n', config_dict)
 
     plain_text = ssr_url_coder.dict2plain(config_dict)
-    print('plain_text')
-    print(plain_text)
+    print('plain_text:\n', plain_text)
 
     # This will save a `config.json` file, and return a `json_text`.
     json_text = ssr_url_coder.dict2json_file(config=config_dict,
@@ -44,8 +55,8 @@ Decode methods
                                              local_address='127.0.0.1',
                                              local_port=1080,
                                              )
-    print('json_text')
-    print(json_text)
+    print('json_text:\n', json_text)
+
 
 
 Get subscribe method
@@ -64,6 +75,7 @@ Get subscribe method
 ToDo
 -----
 
-All about encode? Maybe.
+Encode, done.
 
+Anything else? Emmm, Let me know.
 
