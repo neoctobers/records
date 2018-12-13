@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 22:22+0800\n"
+"POT-Creation-Date: 2018-12-13 11:31+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgid "Installation"
 msgstr ""
 
 #: ../../linux/proxychains.rst:21
-msgid "Make the name shorter:"
+msgid "Make the command name shorter as ``pc4``:"
 msgstr ""
 
 #: ../../linux/proxychains.rst:30
@@ -80,5 +80,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "`proxychains.conf on Github.com`_ and `RAW Format`_"
+#~ msgstr ""
+
+#~ msgid "Make the name shorter:"
 #~ msgstr ""
 

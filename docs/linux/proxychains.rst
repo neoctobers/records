@@ -18,11 +18,11 @@ Installation
     $ make && make install
 
 
-Make the name shorter:
+Make the command name shorter as ``pc4``:
 
 .. code-block:: console
 
-    $ sudo ln -s /usr/local/bin/porxychains4 /usr/local/bin/px4
+    $ sudo ln -s /usr/local/bin/porxychains4 /usr/local/bin/pc4
 
 
 
@@ -60,7 +60,7 @@ Check and usage
 
 .. code-block:: console
 
-    $ px4 curl https://api.myip.com/
+    $ pc4 curl https://api.myip.com/
 
 
 
