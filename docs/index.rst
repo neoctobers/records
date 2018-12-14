@@ -33,6 +33,9 @@ Personal records.
     :caption: Linux
 
     linux/tutorial
+    linux/set_timezone_on_ubuntu
+    linux/tcpping_on_ubuntu
+    linux/commands
     linux/install_python3
     linux/ssr_on_linux
     linux/proxychains
