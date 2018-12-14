@@ -1,7 +1,7 @@
-ShadowsocksR on Linux, Raspberry Pi3B+ for example
-==================================================
+ShadowsocksR Client on Linux
+============================
 
-Under the user ``pi``
+ShadowsocksR by Python
 
 
 Install
@@ -9,8 +9,8 @@ Install
 
 .. code-block:: console
 
-    $ cd /path/to/shadowsocksr-parents-dir/
     $ git clone git@github.com:shadowsocksrr/shadowsocksr.git
+
 
 
 Config
@@ -18,53 +18,35 @@ Config
 
 Make a config file in ``/path/to/config.json``
 
-Default:
-
 .. code-block:: text
 
     {
-        "server": "0.0.0.0",
-        "server_ipv6": "::",
+        "server": "123.123.123.123",
         "server_port": 8388,
-        "local_address": "127.0.0.1",
-        "local_port": 1080,
-
-        "password": "m",
-        "method": "aes-128-ctr",
-        "protocol": "auth_aes128_md5",
+        "method": "chacha20-ietf",
+        "password": "password",
+        "protocol": "auth_chain_a",
         "protocol_param": "",
-        "obfs": "tls1.2_ticket_auth_compatible",
+        "obfs": "http_simple",
         "obfs_param": "",
-        "speed_limit_per_con": 0,
-        "speed_limit_per_user": 0,
 
-        "additional_ports" : {}, // only works under multi-user mode
-        "additional_ports_only" : false, // only works under multi-user mode
-        "timeout": 120,
-        "udp_timeout": 60,
-        "dns_ipv6": false,
-        "connect_verbose_info": 0,
-        "redirect": "",
-        "fast_open": false
+        "local_address": "127.0.0.1",
+        "local_port": 1080
     }
 
-Main lines:
+They are:
 
-.. code-block:: text
+- Server IP address or domain
+- Server port
+- Method
+- Password
+- Protocol
+- Protocol params
+- Obfs
+- Obfs Params
+- Listen IP
+- Listen Port
 
-    {
-        "server": "0.0.0.0",        // Server IP address or domain
-        "server_ipv6": "::",        // Server IPv6 address, or leave it as ::
-        "server_port": 8388,        // Server port
-        "local_address": "0.0.0.0", // 0.0.0.0 will work for the whole lan
-        "local_port": 1080,         // Local port
-        "password": "password",     // Server password
-        "method": "chacha20-ietf",  // Method
-        "protocol": "auth_chain_a", // Protocol
-        "protocol_param": "",       // Protocol params
-        "obfs": "http_simple",      // Obfs
-        "obfs_param": "",           // Obfs Params
-    }
 
 
 Try to run
@@ -75,35 +57,19 @@ Try to run
     $ python /path/to/shadowsocksr/shadowsocks/local.py -c /path/to/config.json
 
 
-Make it as a service
---------------------
 
-Write a ``/etc/systemd/system/ssr.service``:
+Keep it running by supervisor
+-----------------------------
+
+Write a supervisor ``/etc/supervisor/conf.d/ssr.conf`` file:
 
 .. code-block:: text
 
-    [Unit]
-    Description=ShadowsocksR
-    After=network.target
-
-    [Service]
-    ExecStart=/usr/bin/python /path/to/shadowsocksr/shadowsocks/local.py -c /path/to/config.json
-    Restart=on-abort
-
-    [Install]
-    WantedBy=multi-user.target
-
-Enable the service:
-
-.. code-block:: console
-
-    $ systemctl enable ssr
-
-Start / stop / restart / check status:
-
-.. code-block:: console
-
-    $ service frps ssr
-    $ service frps ssr
-    $ service frps ssr
-    $ service frps ssr
+    [program:ssr]
+    command=/usr/bin/python3 /path/to/shadowsocksr/shadowsocks/local.py -c /path/to/config.json
+    autostart=true
+    autorestart=true
+    startretries=5
+    redirect_stderr=true
+    # stdout_logfile=/path/to/ssr.log
+    stdout_logfile=NONE

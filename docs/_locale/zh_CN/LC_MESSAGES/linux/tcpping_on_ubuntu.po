@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-14 10:42+0800\n"
+"POT-Creation-Date: 2018-12-14 11:21+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../linux/tcpping_on_ubuntu.rst:2
-msgid "TCP Ping on ubuntu"
+msgid "TCP Ping on Ubuntu"
 msgstr ""
 
 #: ../../linux/tcpping_on_ubuntu.rst:4
@@ -32,4 +32,7 @@ msgstr ""
 #: ../../linux/tcpping_on_ubuntu.rst:20
 msgid "Usage"
 msgstr ""
+
+#~ msgid "TCP Ping on ubuntu"
+#~ msgstr ""
 

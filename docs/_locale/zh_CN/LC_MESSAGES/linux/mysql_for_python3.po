@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 18:03+0800\n"
+"POT-Creation-Date: 2018-12-14 11:21+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,9 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../linux/mysql_for_python3.rst:2
-msgid "MySQL for Python3 on ubuntu"
+msgid "MySQL Connection support for Python3 on ubuntu"
 msgstr ""
+
+#~ msgid "MySQL for Python3 on ubuntu"
+#~ msgstr ""
 

@@ -1,5 +1,5 @@
-MySQL for Python3 on ubuntu
-===========================
+MySQL Connection support for Python3 on ubuntu
+==============================================
 
 .. code-block:: console
 
