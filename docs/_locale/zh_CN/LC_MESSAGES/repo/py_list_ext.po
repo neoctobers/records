@@ -17,37 +17,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../repo/scripts.rst:2
-msgid "Github: scripts - Some useful scripts"
+#: ../../repo/py_list_ext.rst:2
+msgid "PyPI: list-ext - A list extension."
 msgstr ""
 
-#: ../../repo/scripts.rst:4
-msgid "https://github.com/neoctobers/scripts"
+#: ../../repo/py_list_ext.rst:4
+msgid "A list extension:"
 msgstr ""
 
-#: ../../repo/scripts.rst:9
-msgid "Clone and config"
+#: ../../repo/py_list_ext.rst:6
+msgid "unique"
 msgstr ""
 
-#: ../../repo/scripts.rst:16
-msgid "Add the absolute path to ``PATH``."
+#: ../../repo/py_list_ext.rst:7
+msgid "strip"
 msgstr ""
 
-#: ../../repo/scripts.rst:18
-msgid "Then you can use these ``.bat`` commands everywhere."
+#: ../../repo/py_list_ext.rst:8
+msgid "strip_and_unique"
 msgstr ""
 
-#: ../../repo/scripts.rst:23
-msgid "Homestead"
+#: ../../repo/py_list_ext.rst:9
+msgid "remove"
 msgstr ""
 
-#: ../../repo/scripts.rst:25
-msgid ""
-"Add the homestead directory's absolute path to the name "
-"``homesteadVagrant`` in system environment variables."
+#: ../../repo/py_list_ext.rst:10
+msgid "strip_and_remove"
 msgstr ""
 
-#: ../../repo/scripts.rst:27
-msgid "Then, use the command ``homestead`` as ``vagrant``, for example:"
+#: ../../repo/py_list_ext.rst:11
+msgid "sur"
+msgstr ""
+
+#: ../../repo/py_list_ext.rst:16
+msgid "Installation"
+msgstr ""
+
+#: ../../repo/py_list_ext.rst:24
+msgid "Usage"
+msgstr ""
+
+#: ../../repo/py_list_ext.rst:46
+msgid "Result:"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-15 17:07+0800\n"
+"POT-Creation-Date: 2018-12-15 18:33+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,69 +17,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../repo/ssr_utils.rst:2
+#: ../../repo/py_ssr_utils.rst:2
 msgid "PyPI: ssr-utils - Shadowsocks(R) Utils"
 msgstr ""
 
-#: ../../repo/ssr_utils.rst:4
+#: ../../repo/py_ssr_utils.rst:7
 msgid "Shadowsocks(R) utils:"
 msgstr ""
 
-#: ../../repo/ssr_utils.rst:6 ../../repo/ssr_utils.rst:66
+#: ../../repo/py_ssr_utils.rst:9 ../../repo/py_ssr_utils.rst:79
 msgid "Get SSR URLs by subscribe"
 msgstr ""
 
-#: ../../repo/ssr_utils.rst:7
+#: ../../repo/py_ssr_utils.rst:10
 msgid "SSR URL encode/decode"
 msgstr ""
 
-#: ../../repo/ssr_utils.rst:8
+#: ../../repo/py_ssr_utils.rst:11
 msgid "Generate plain text"
 msgstr ""
 
-#: ../../repo/ssr_utils.rst:9
+#: ../../repo/py_ssr_utils.rst:12
 msgid "Generate ``.json`` config file"
 msgstr ""
 
-#: ../../repo/ssr_utils.rst:10
+#: ../../repo/py_ssr_utils.rst:13
 msgid "Check available (for linux only)"
 msgstr ""
 
-#: ../../repo/ssr_utils.rst:15
+#: ../../repo/py_ssr_utils.rst:18
 msgid "Installation"
 msgstr ""
 
-#: ../../repo/ssr_utils.rst:24
+#: ../../repo/py_ssr_utils.rst:27
 msgid "Usage"
 msgstr ""
-
-#~ msgid "Shadowsocks(R) utils"
-#~ msgstr ""
-
-#~ msgid "class"
-#~ msgstr ""
-
-#~ msgid "``SSR``:"
-#~ msgstr ""
-
-#~ msgid "URL encode/decode"
-#~ msgstr ""
-
-#~ msgid "Check available"
-#~ msgstr ""
-
-#~ msgid "methods"
-#~ msgstr ""
-
-#~ msgid "``get_ssr_urls_by_subscribe()``"
-#~ msgstr ""
-
-#~ msgid "Set"
-#~ msgstr ""
-
-#~ msgid "Props"
-#~ msgstr ""
-
-#~ msgid "Get subscribe method"
-#~ msgstr ""
 

@@ -62,8 +62,9 @@ Personal records.
     :caption: Open-source
 
     repo/scripts
-    repo/xpi
-    repo/ssr_utils
+    repo/py_xpi
+    repo/py_ssr_utils
+    repo/py_list_ext
 
 
 .. toctree::
