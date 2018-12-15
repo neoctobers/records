@@ -66,6 +66,7 @@ Personal records.
     repo/py_ssr_utils
     repo/py_list_ext
     repo/py_dict_ext
+    repo/py_common_patterns
 
 
 .. toctree::
