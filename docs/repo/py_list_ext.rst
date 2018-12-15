@@ -6,12 +6,12 @@ PyPI: list-ext - A Python list extension
 
 A Python ``list`` extension:
 
-- unique
-- strip
-- strip_and_unique
-- remove
-- strip_and_remove
-- sur
+- ``unique``
+- ``strip``
+- ``strip_and_unique``
+- ``remove``
+- ``strip_and_remove``
+- ``sur``
 
 
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-15 18:51+0800\n"
+"POT-Creation-Date: 2018-12-15 19:30+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,35 +19,41 @@ msgstr ""
 
 #: ../../repo/py_list_ext.rst:2
 msgid "PyPI: list-ext - A Python list extension"
-msgstr ""
+msgstr "PyPI: list-ext - 一个 Python 的 list 类型扩展功能包"
 
 #: ../../repo/py_list_ext.rst:7
 msgid "A Python ``list`` extension:"
 msgstr "一个 Python 的 ``list`` 类型扩展功能包"
 
 #: ../../repo/py_list_ext.rst:9
-msgid "unique"
-msgstr "unique 去重"
+#, fuzzy
+msgid "``unique``"
+msgstr "``unique`` 去重"
 
 #: ../../repo/py_list_ext.rst:10
-msgid "strip"
-msgstr "strip 去除元素首尾的空格符"
+#, fuzzy
+msgid "``strip``"
+msgstr "``strip`` 去除元素首尾的空格符"
 
 #: ../../repo/py_list_ext.rst:11
-msgid "strip_and_unique"
-msgstr "strip_and_unique 去除元素首尾的空格后，去重"
+#, fuzzy
+msgid "``strip_and_unique``"
+msgstr "``strip_and_unique`` 去除元素首尾的空格后，去重"
 
 #: ../../repo/py_list_ext.rst:12
-msgid "remove"
-msgstr "remove 删除指定元素"
+#, fuzzy
+msgid "``remove``"
+msgstr "``remove`` 删除指定元素"
 
 #: ../../repo/py_list_ext.rst:13
-msgid "strip_and_remove"
-msgstr "strip_and_remove 去除元素首尾的空格后，删除指定元素"
+#, fuzzy
+msgid "``strip_and_remove``"
+msgstr "``strip_and_remove`` 去除元素首尾的空格后，删除指定元素"
 
 #: ../../repo/py_list_ext.rst:14
-msgid "sur"
-msgstr "sur 综上，去除元素首尾的空格后，去重，再删除指定元素"
+#, fuzzy
+msgid "``sur``"
+msgstr "``sur`` 综上，去除元素首尾的空格后，去重，再删除指定元素"
 
 #: ../../repo/py_list_ext.rst:19
 msgid "Installation"
