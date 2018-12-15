@@ -5,6 +5,19 @@ some commands here...
 
 
 
+Update & upgrade
+----------------
+
+.. code-block:: console
+
+    $ sudo apt update
+    $ sudo apt upgrade
+
+    or
+    $ sudo apt update && sudo apt upgrade
+
+
+
 List listening ports
 --------------------
 
