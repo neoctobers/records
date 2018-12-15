@@ -1,5 +1,8 @@
-PyPI: list-ext - A list extension.
-==================================
+PyPI: list-ext - A Python list extension.
+=========================================
+
+.. image:: http://img.shields.io/pypi/v/list-ext.svg
+
 
 A list extension:
 
