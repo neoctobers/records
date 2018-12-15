@@ -50,18 +50,17 @@ Usage
     ssr.remarks = '...'
     ssr.group = '...'
 
-
     # then...
     print(ssr.url)
     print(ssr.plain)
     print(ssr.config)
-    print(ssr.json_string)
 
 
     # generage a config file, as .json
     ssr.local_address = '127.0.0.1'
     ssr.local_port = 1080
     ssr.path_to_config = 'config.json'
+    print(ssr.json_string)
     ssr.generate_config_file()
 
 
