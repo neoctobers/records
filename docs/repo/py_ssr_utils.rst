@@ -32,6 +32,12 @@ Usage
 
    ssr = ssr_utils.SSR()
 
+   ssr.load(ssr_object)
+
+   # or
+   ssr.url = 'ssr://...' # 'ss://...' is accepted too
+
+   # or
    ssr.set(server=server,
            port=port,
            method=method,
@@ -44,9 +50,6 @@ Usage
            remarks=remarks,
            group=group,
            )
-
-   # or
-   ssr.url = 'ssr://...' # 'ss://...' is accepted too
 
 
    # and you may:
