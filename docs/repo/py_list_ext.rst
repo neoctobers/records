@@ -1,10 +1,10 @@
-PyPI: list-ext - A Python list extension.
-=========================================
+PyPI: list-ext - A Python list extension
+========================================
 
 .. image:: http://img.shields.io/pypi/v/list-ext.svg
 
 
-A list extension:
+A Python ``list`` extension:
 
 - unique
 - strip
