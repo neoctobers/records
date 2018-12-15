@@ -63,7 +63,7 @@ Personal records.
 
     repo/scripts
     repo/xpi
-    repo/ssr_url_coder
+    repo/ssr_utils
 
 
 .. toctree::
