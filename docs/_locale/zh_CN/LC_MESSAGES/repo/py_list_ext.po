@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-15 19:30+0800\n"
+"POT-Creation-Date: 2018-12-15 19:46+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,27 +43,32 @@ msgstr "``strip_and_unique`` 去除元素首尾的空格后，去重"
 #: ../../repo/py_list_ext.rst:12
 #, fuzzy
 msgid "``remove``"
-msgstr "``remove`` 删除指定元素"
+msgstr "``remove`` 删除指定的可能存在的元素"
 
 #: ../../repo/py_list_ext.rst:13
 #, fuzzy
 msgid "``strip_and_remove``"
-msgstr "``strip_and_remove`` 去除元素首尾的空格后，删除指定元素"
+msgstr "``strip_and_remove`` 去除元素首尾的空格后，删除指定的可能存在的元素"
 
 #: ../../repo/py_list_ext.rst:14
 #, fuzzy
-msgid "``sur``"
-msgstr "``sur`` 综上，去除元素首尾的空格后，去重，再删除指定元素"
+msgid "``remove_and_unique``"
+msgstr "``remove_and_unique`` 删除指定的可能存在的元素，去重"
 
-#: ../../repo/py_list_ext.rst:19
+#: ../../repo/py_list_ext.rst:15
+#, fuzzy
+msgid "``sur``"
+msgstr "``sur`` 综上，去除元素首尾的空格后，去重，再删除指定的可能存在的元素"
+
+#: ../../repo/py_list_ext.rst:20
 msgid "Installation"
 msgstr "安装"
 
-#: ../../repo/py_list_ext.rst:27
+#: ../../repo/py_list_ext.rst:28
 msgid "Usage"
 msgstr "使用"
 
-#: ../../repo/py_list_ext.rst:49
+#: ../../repo/py_list_ext.rst:50
 msgid "Result:"
 msgstr "运行结果"
 
