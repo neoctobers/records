@@ -62,11 +62,11 @@ Personal records.
     :caption: Open-source
 
     repo/scripts
-    repo/py_xpi
-    repo/py_ssr_utils
     repo/py_list_ext
     repo/py_dict_ext
     repo/py_common_patterns
+    repo/py_ssr_utils
+    repo/py_xpi
 
 
 .. toctree::
