@@ -17,6 +17,8 @@ Install
 sample.conf
 -----------
 
+REF: http://supervisord.org/configuration.html#program-x-section-example
+
 Under ``/etc/supervisor/conf.d/``, write a file ``sample.conf`` like:
 
 .. code-block:: text
