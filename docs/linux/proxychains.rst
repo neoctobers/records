@@ -18,18 +18,14 @@ Installation
     $ make && make install
 
 
-Make the command name shorter as ``pc4``:
-
-.. code-block:: console
-
-    $ sudo ln -s /usr/local/bin/porxychains4 /usr/local/bin/pc4
+The full path to command is: ``/usr/local/bin/porxychains4``
 
 
 
 Configuration
 -------------
 
-Write config file ``/etc/proxychains.conf``:
+Write config file ``/etc/proxychains.conf`` as default:
 
 .. code-block:: text
 
@@ -60,7 +56,5 @@ Check and usage
 
 .. code-block:: console
 
-    $ pc4 curl https://api.myip.com/
-
-
+    $ porxychains4 curl https://api.myip.com/
 

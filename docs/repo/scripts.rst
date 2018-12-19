@@ -15,7 +15,7 @@ Clone and config
 
 Add the absolute path to ``PATH``.
 
-Then you can use these ``.bat`` commands everywhere.
+Then you can use these commands everywhere.
 
 
 
