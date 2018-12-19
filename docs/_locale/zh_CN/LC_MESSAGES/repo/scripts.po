@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-15 18:33+0800\n"
+"POT-Creation-Date: 2018-12-19 22:46+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgid "Add the absolute path to ``PATH``."
 msgstr ""
 
 #: ../../repo/scripts.rst:18
-msgid "Then you can use these ``.bat`` commands everywhere."
+msgid "Then you can use these commands everywhere."
 msgstr ""
 
 #: ../../repo/scripts.rst:23
@@ -50,4 +50,7 @@ msgstr ""
 #: ../../repo/scripts.rst:27
 msgid "Then, use the command ``homestead`` as ``vagrant``, for example:"
 msgstr ""
+
+#~ msgid "Then you can use these ``.bat`` commands everywhere."
+#~ msgstr ""
 

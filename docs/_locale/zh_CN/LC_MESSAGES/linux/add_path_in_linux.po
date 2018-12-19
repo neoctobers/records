@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 10:13+0800\n"
+"POT-Creation-Date: 2018-12-19 22:46+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,11 @@ msgstr ""
 msgid "Write a ``/etc/profile.d/add_path.sh`` file:"
 msgstr ""
 
-#: ../../linux/add_path_in_linux.rst:34
+#: ../../linux/add_path_in_linux.rst:27
+msgid "Then:"
+msgstr ""
+
+#: ../../linux/add_path_in_linux.rst:37
 msgid "Check"
 msgstr ""
 

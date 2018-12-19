@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-11 10:38+0800\n"
+"POT-Creation-Date: 2018-12-19 22:46+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,10 +38,14 @@ msgid "sample.conf"
 msgstr ""
 
 #: ../../linux/supervisor.rst:20
+msgid "REF: http://supervisord.org/configuration.html#program-x-section-example"
+msgstr ""
+
+#: ../../linux/supervisor.rst:22
 msgid "Under ``/etc/supervisor/conf.d/``, write a file ``sample.conf`` like:"
 msgstr ""
 
-#: ../../linux/supervisor.rst:35
+#: ../../linux/supervisor.rst:37
 msgid "Commands"
 msgstr ""
 

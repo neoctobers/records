@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-13 11:31+0800\n"
+"POT-Creation-Date: 2018-12-19 22:46+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,28 +34,28 @@ msgid "Installation"
 msgstr ""
 
 #: ../../linux/proxychains.rst:21
-msgid "Make the command name shorter as ``pc4``:"
+msgid "The full path to command is: ``/usr/local/bin/porxychains4``"
 msgstr ""
 
-#: ../../linux/proxychains.rst:30
+#: ../../linux/proxychains.rst:26
 msgid "Configuration"
 msgstr ""
 
-#: ../../linux/proxychains.rst:32
-msgid "Write config file ``/etc/proxychains.conf``:"
+#: ../../linux/proxychains.rst:28
+msgid "Write config file ``/etc/proxychains.conf`` as default:"
 msgstr ""
 
-#: ../../linux/proxychains.rst:46
+#: ../../linux/proxychains.rst:42
 msgid "PS: Port 1080 is listened by a Shadowsocks or shadowsocksR."
 msgstr ""
 
-#: ../../linux/proxychains.rst:51
+#: ../../linux/proxychains.rst:47
 msgid ""
 "Original ``proxychains.conf`` file: `proxychains.conf on Github.com`_ or "
 "`in RAW format`_"
 msgstr ""
 
-#: ../../linux/proxychains.rst:59
+#: ../../linux/proxychains.rst:55
 msgid "Check and usage"
 msgstr ""
 
@@ -83,5 +83,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Make the name shorter:"
+#~ msgstr ""
+
+#~ msgid "Make the command name shorter as ``pc4``:"
+#~ msgstr ""
+
+#~ msgid "Write config file ``/etc/proxychains.conf``:"
 #~ msgstr ""
 
