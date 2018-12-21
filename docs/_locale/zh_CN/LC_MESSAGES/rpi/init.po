@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, neoctobers
+# This file is distributed under the same license as the neoctobers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: neoctobers latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 20:31+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../rpi/init.rst:2
+msgid "Init a RPi3B+ (and boot from USB HDD)"
+msgstr ""
+
+#: ../../rpi/init.rst:4
+msgid "records..."
+msgstr ""
+
+#: ../../rpi/init.rst:8
+msgid "Hardware"
+msgstr ""
+
+#: ../../rpi/init.rst:10
+msgid "**RPi3B+** x1"
+msgstr ""
+
+#: ../../rpi/init.rst:11
+msgid "**TF 16G** x1"
+msgstr ""
+
+#: ../../rpi/init.rst:12
+msgid "**USB HDD** 1T x1"
+msgstr ""
+
+#: ../../rpi/init.rst:13
+msgid "**USB Keyboard** x1"
+msgstr ""
+
+#: ../../rpi/init.rst:14
+msgid "**USB Mouse** x1"
+msgstr ""
+
+#: ../../rpi/init.rst:19
+msgid "Image Flashing Tool"
+msgstr ""
+
+#: ../../rpi/init.rst:21
+msgid "balenaEtcher-Portable-1.4.8-x64"
+msgstr ""
+
+#: ../../rpi/init.rst:23
+msgid "From: https://www.balena.io/etcher/"
+msgstr ""
+
+#: ../../rpi/init.rst:28
+msgid "System Image"
+msgstr ""
+
+#: ../../rpi/init.rst:30
+msgid "https://www.raspberrypi.org/downloads/raspbian/"
+msgstr ""
+
+#: ../../rpi/init.rst:35
+msgid "Switch to: Boot from USB HDD"
+msgstr ""
+
+#: ../../rpi/init.rst:37
+msgid "Write the image to TF card."
+msgstr ""
+
+#: ../../rpi/init.rst:38
+msgid "Add ``program_usb_boot_mode=1`` to file ``cmdline.txt``"
+msgstr ""
+
+#: ../../rpi/init.rst:39
+msgid ""
+"Insert the TF card, power on for about 60 seconds, power off, remove the "
+"TF"
+msgstr ""
+
+#: ../../rpi/init.rst:40
+msgid "Write the image to USB HDD"
+msgstr ""
+
+#: ../../rpi/init.rst:41
+msgid "Adjust partitions, by ``DiskGenius``, on win10:"
+msgstr ""
+
+#: ../../rpi/init.rst:43
+msgid "0: keep the ``boot``, do not edit it"
+msgstr ""
+
+#: ../../rpi/init.rst:44
+msgid "2: adjust ``rootfs`` to ``32GB``, and move it to the end, end, end"
+msgstr ""
+
+#: ../../rpi/init.rst:45
+msgid "1: create an ``ext4`` partition, with the rest all spaces, named ``data``"
+msgstr ""
+
+#: ../../rpi/init.rst:49
+msgid "Configurations"
+msgstr ""
+
+#: ../../rpi/init.rst:51
+msgid "Boot to ``Raspbian desktop``, follow the guide, then reboot"
+msgstr ""
+
+#: ../../rpi/init.rst:52
+msgid "Terminal:"
+msgstr ""
+
+#: ../../rpi/init.rst:54
+msgid "sudo apt update"
+msgstr ""
+
+#: ../../rpi/init.rst:55
+msgid "sudo apt upgrade"
+msgstr ""
+
+#: ../../rpi/init.rst:57
+msgid "Pi Configuration"
+msgstr ""
+
+#: ../../rpi/init.rst:59
+msgid "rename"
+msgstr ""
+
+#: ../../rpi/init.rst:60
+msgid "switch boot to CLI, will disable auto login at the same time"
+msgstr ""
+
+#: ../../rpi/init.rst:61
+msgid "enable SSH"
+msgstr ""
+
+#: ../../rpi/init.rst:63
+msgid "reboot"
+msgstr ""
+
+#: ../../rpi/init.rst:67
+msgid "Mount partition #1"
+msgstr ""
+
+#: ../../rpi/init.rst:69
+msgid ""
+"Append one line to ``/etc/fstab``, before it, make sure ``/dev/sda3`` is "
+"correct:"
+msgstr ""
+
+#: ../../rpi/init.rst:78
+msgid "hd-idle"
+msgstr ""
+
+#: ../../rpi/init.rst:80
+msgid "To protect the HDD, suspend when idle."
+msgstr ""
+
+#: ../../rpi/init.rst:82
+msgid "Check support:"
+msgstr ""
+
+#: ../../rpi/init.rst:116
+msgid "Install dependencies:"
+msgstr ""
+
+#: ../../rpi/init.rst:123
+msgid "Download:"
+msgstr ""
+
+#: ../../rpi/init.rst:129
+msgid "Unzip and cd in:"
+msgstr ""
+
+#: ../../rpi/init.rst:135
+msgid "Install:"
+msgstr ""
+
+#: ../../rpi/init.rst:142
+msgid "Check for support:"
+msgstr ""
+
+#: ../../rpi/init.rst:150
+msgid "``Ctrl + C`` to break."
+msgstr ""
+
+#: ../../rpi/init.rst:152
+msgid "Edit conf:"
+msgstr ""
+
+#: ../../rpi/init.rst:158
+msgid "Modify:"
+msgstr ""
+
+#: ../../rpi/init.rst:164
+msgid "Append for idle, after ``600`` seconds:"
+msgstr ""
+
+#: ../../rpi/init.rst:170
+msgid "Restart the service:"
+msgstr ""
+
+#: ../../rpi/init.rst
+msgid "ref"
+msgstr ""
+
+#: ../../rpi/init.rst:177
+msgid "http://www.mkitby.com/2016/05/15/raspberry-pi-nas-manage-hdd-power/"
+msgstr ""
+
+#~ msgid "Mount partition1"
+#~ msgstr ""
+
+#~ msgid "Init a RPi3B+"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adjust partitions, by ``DiskGenius``, on "
+#~ "win10: - 0: keep the ``boot``, do"
+#~ " not edit it - 2: adjust "
+#~ "``rootfs`` to ``32GB``, and move it "
+#~ "to the end, end, end - 1: "
+#~ "create an ``ext4`` partition, with the"
+#~ " rest all spaces, named ``data``"
+#~ msgstr ""
+
+#~ msgid "Terminal: - sudo apt update - sudo apt upgrade"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Pi Configuration - rename - switch "
+#~ "boot to CLI, will disable auto "
+#~ "login at the same time - enable"
+#~ " SSH"
+#~ msgstr ""
+

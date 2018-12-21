@@ -5,88 +5,96 @@ Personal records.
 
 
 .. toctree::
-    :maxdepth: 1
-    :caption: About Development
+   :maxdepth: 1
+   :caption: About Development
 
-    dev/google_style_guides
-    dev/frp
-    dev/git
-    dev/git_multi_ssh_key
-    dev/git_io
-    dev/cmder
-    dev/cmd_behind_a_proxy
-    dev/multi_commands_in_one_line
-    dev/read_the_docs
-    dev/settings_sync
-    dev/wave_share_4d3inch_epaper
-
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Write
-
-    write/rest
+   dev/google_style_guides
+   dev/frp
+   dev/git
+   dev/git_multi_ssh_key
+   dev/git_io
+   dev/cmder
+   dev/cmd_behind_a_proxy
+   dev/multi_commands_in_one_line
+   dev/read_the_docs
+   dev/settings_sync
+   dev/wave_share_4d3inch_epaper
 
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Linux
+   :maxdepth: 1
+   :caption: Write
 
-    linux/tutorial
-    linux/set_timezone_on_ubuntu
-    linux/tcpping_on_ubuntu
-    linux/commands
-    linux/add_path_in_linux
-    linux/install_python3
-    linux/ssr_on_linux
-    linux/proxychains
-    linux/supervisor
-    linux/mysql_for_python3
-    linux/pi3_disable_bt
-    linux/wave_share_4d3inch_epaper_on_rpi3bp
+   write/rest
 
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Python
+   :maxdepth: 1
+   :caption: Linux
 
-    python/python3_cookbook
-    python/django
-    python/django_orm
-    python/virtualenvwrapper-win
-    python/postgresql
-    python/django_postgresql
+   linux/tutorial
+   linux/set_timezone_on_ubuntu
+   linux/tcpping_on_ubuntu
+   linux/commands
+   linux/add_path_in_linux
 
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Open-source
-
-    repo/scripts
-    repo/py_list_ext
-    repo/py_dict_ext
-    repo/py_common_patterns
-    repo/py_ssr_utils
-    repo/py_xpi
+   linux/ssr_on_linux
+   linux/proxychains
+   linux/supervisor
+   linux/mysql_for_python3
+   linux/pi3_disable_bt
+   linux/wave_share_4d3inch_epaper_on_rpi3bp
 
 
 .. toctree::
-    :maxdepth: 1
-    :caption: PHP
+   :maxdepth: 1
+   :caption: Python
 
-    php/homestead
-
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Network
-
-    network/tor
+   python/python3_cookbook
+   python/django
+   python/django_orm
+   python/virtualenvwrapper-win
+   python/postgresql
+   python/django_postgresql
 
 
 .. toctree::
-    :maxdepth: 2
-    :caption: General
+   :maxdepth: 1
+   :caption: Open-source
 
-    general/downloads
+   repo/scripts
+   repo/py_list_ext
+   repo/py_dict_ext
+   repo/py_common_patterns
+   repo/py_ssr_utils
+   repo/py_xpi
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: PHP
+
+   php/homestead
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Network
+
+   network/tor
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: RPi3B+
+
+   rpi/init
+   rpi/install_python3
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: General
+
+   general/downloads
 
