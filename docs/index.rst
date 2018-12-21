@@ -78,6 +78,13 @@ Personal records.
 
 
 .. toctree::
+    :maxdepth: 1
+    :caption: Network
+
+    network/tor
+
+
+.. toctree::
     :maxdepth: 2
     :caption: General
 

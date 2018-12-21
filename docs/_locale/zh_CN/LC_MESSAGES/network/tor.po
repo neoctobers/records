@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, neoctobers
+# This file is distributed under the same license as the neoctobers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: neoctobers latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 14:45+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../network/tor.rst:2
+msgid "TOR"
+msgstr ""
+
+#: ../../network/tor.rst:4
+msgid "Just TOR"
+msgstr ""
+
+#: ../../network/tor.rst:9
+msgid "Download"
+msgstr ""
+
+#: ../../network/tor.rst:11
+msgid "https://www.torproject.org/download/download"
+msgstr ""
+
+#: ../../network/tor.rst:16
+msgid "Expert Bundle on windows"
+msgstr ""
+
+#: ../../network/tor.rst:18
+msgid "Edit a file ``torrc`` in directory ``%AppData%/tor``:"
+msgstr ""
+
+#: ../../network/tor.rst:29
+msgid "Then, run ``tor.exe`` and enjoy, with ``socks5://127.0.0.1:9050``"
+msgstr ""
+
+#: ../../network/tor.rst:31
+msgid ""
+"Full and a raw ``torrc``, visit `github "
+"<https://github.com/torproject/tor/blob/master/src/config/torrc.sample.in>`_"
+msgstr ""
+
