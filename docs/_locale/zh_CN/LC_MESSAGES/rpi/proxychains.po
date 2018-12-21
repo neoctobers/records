@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-19 22:46+0800\n"
+"POT-Creation-Date: 2018-12-21 23:29+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,77 +17,55 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../linux/proxychains.rst:2
-msgid "Proxychains-NG"
+#: ../../rpi/proxychains.rst:2
+msgid "Proxychains-NG: Run commands behind a Socks5 proxy"
 msgstr ""
 
-#: ../../linux/proxychains.rst:4
-msgid "Run a command behind a socks5 proxy."
+#: ../../rpi/proxychains.rst:4
+msgid "Run a command behind a Socks5 proxy."
 msgstr ""
 
-#: ../../linux/proxychains.rst:6
+#: ../../rpi/proxychains.rst
+msgid "ref"
+msgstr ""
+
+#: ../../rpi/proxychains.rst:6
 msgid "https://github.com/rofl0r/proxychains-ng"
 msgstr ""
 
-#: ../../linux/proxychains.rst:11
+#: ../../rpi/proxychains.rst:11
 msgid "Installation"
 msgstr ""
 
-#: ../../linux/proxychains.rst:21
+#: ../../rpi/proxychains.rst:21
 msgid "The full path to command is: ``/usr/local/bin/porxychains4``"
 msgstr ""
 
-#: ../../linux/proxychains.rst:26
+#: ../../rpi/proxychains.rst:26
 msgid "Configuration"
 msgstr ""
 
-#: ../../linux/proxychains.rst:28
+#: ../../rpi/proxychains.rst:28
 msgid "Write config file ``/etc/proxychains.conf`` as default:"
 msgstr ""
 
-#: ../../linux/proxychains.rst:42
+#: ../../rpi/proxychains.rst:42
 msgid "PS: Port 1080 is listened by a Shadowsocks or shadowsocksR."
 msgstr ""
 
-#: ../../linux/proxychains.rst:47
+#: ../../rpi/proxychains.rst:47
 msgid ""
 "Original ``proxychains.conf`` file: `proxychains.conf on Github.com`_ or "
 "`in RAW format`_"
 msgstr ""
 
-#: ../../linux/proxychains.rst:55
+#: ../../rpi/proxychains.rst:55
 msgid "Check and usage"
 msgstr ""
 
-#~ msgid "Make a config file:"
+#~ msgid "Run commands behind a socks5 proxy via Proxychains-NG"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "It will leave a ``proxychains.conf`` "
-#~ "under ``/usr/local/etc/``, just edit it:"
-#~ msgstr ""
-
-#~ msgid "That is local ``127.0.0.1:1080`` for example."
-#~ msgstr ""
-
-#~ msgid "Proxychains"
-#~ msgstr ""
-
-#~ msgid "Original ``proxychains.conf``:"
-#~ msgstr ""
-
-#~ msgid "Original ``proxychains.conf`` FILE:"
-#~ msgstr ""
-
-#~ msgid "`proxychains.conf on Github.com`_ and `RAW Format`_"
-#~ msgstr ""
-
-#~ msgid "Make the name shorter:"
-#~ msgstr ""
-
-#~ msgid "Make the command name shorter as ``pc4``:"
-#~ msgstr ""
-
-#~ msgid "Write config file ``/etc/proxychains.conf``:"
+#~ msgid "Run a command behind a socks5 proxy."
 #~ msgstr ""
 

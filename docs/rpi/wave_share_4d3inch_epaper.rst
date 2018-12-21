@@ -1,5 +1,5 @@
-WaveShare 4.3inch e-paper UART module on RaspberryPi 3B+
-========================================================
+WaveShare 4.3inch e-paper UART module
+=====================================
 
 =====  ===========  =======
 GPIO   FUNC         EPaper

@@ -21,11 +21,13 @@ Personal records.
    dev/wave_share_4d3inch_epaper
 
 
+
 .. toctree::
    :maxdepth: 1
    :caption: Write
 
    write/rest
+
 
 
 .. toctree::
@@ -37,13 +39,9 @@ Personal records.
    linux/tcpping_on_ubuntu
    linux/commands
    linux/add_path_in_linux
-
-   linux/ssr_on_linux
-   linux/proxychains
    linux/supervisor
    linux/mysql_for_python3
-   linux/pi3_disable_bt
-   linux/wave_share_4d3inch_epaper_on_rpi3bp
+
 
 
 .. toctree::
@@ -58,6 +56,7 @@ Personal records.
    python/django_postgresql
 
 
+
 .. toctree::
    :maxdepth: 1
    :caption: Open-source
@@ -70,11 +69,13 @@ Personal records.
    repo/py_xpi
 
 
+
 .. toctree::
    :maxdepth: 1
    :caption: PHP
 
    php/homestead
+
 
 
 .. toctree::
@@ -84,12 +85,19 @@ Personal records.
    network/tor
 
 
+
 .. toctree::
    :maxdepth: 1
    :caption: RPi3B+
 
    rpi/init
    rpi/install_python3
+   rpi/disable_bt
+   rpi/wave_share_4d3inch_epaper
+   rpi/shadowsocksr_client
+   rpi/proxychains
+   rpi/tor
+
 
 
 .. toctree::

@@ -1,7 +1,8 @@
-ShadowsocksR Client on Linux
-============================
+ShadowsocksR Client
+===================
 
 ShadowsocksR by Python
+
 
 
 Install
@@ -23,11 +24,11 @@ Make a config file in ``/path/to/config.json``
     {
         "server": "123.123.123.123",
         "server_port": 8388,
-        "method": "chacha20-ietf",
+        "method": "aes-256-cfb",
         "password": "password",
-        "protocol": "auth_chain_a",
+        "protocol": "origin",
         "protocol_param": "",
-        "obfs": "http_simple",
+        "obfs": "plain",
         "obfs_param": "",
 
         "local_address": "127.0.0.1",
@@ -66,10 +67,13 @@ Write a supervisor ``/etc/supervisor/conf.d/ssr.conf`` file:
 .. code-block:: text
 
     [program:ssr]
+    user=root
     command=/usr/bin/python3 /path/to/shadowsocksr/shadowsocks/local.py -c /path/to/config.json
     autostart=true
     autorestart=true
     startretries=5
     redirect_stderr=true
-    # stdout_logfile=/path/to/ssr.log
-    stdout_logfile=NONE
+    stdout_logfile=/path/to/ssr.log
+
+Make sure all the path is already exist.
+

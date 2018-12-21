@@ -1,9 +1,9 @@
-Proxychains-NG
-==============
+Proxychains-NG: Run commands behind a Socks5 proxy
+==================================================
 
-Run a command behind a socks5 proxy.
+Run a command behind a Socks5 proxy.
 
-https://github.com/rofl0r/proxychains-ng
+:ref: https://github.com/rofl0r/proxychains-ng
 
 
 
@@ -14,8 +14,8 @@ Installation
 
     $ git clone git@github.com:rofl0r/proxychains-ng.git
     $ cd proxychains-ng
-    $ ./configure
-    $ make && make install
+    $ sudo ./configure
+    $ sudo make && sudo make install
 
 
 The full path to command is: ``/usr/local/bin/porxychains4``

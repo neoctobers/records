@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, neoctobers
+# This file is distributed under the same license as the neoctobers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: neoctobers latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 23:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../rpi/tor.rst:2
+msgid "Run Tor on RPi"
+msgstr ""
+
+#: ../../rpi/tor.rst:4
+msgid "Tor on RPi3B+"
+msgstr ""
+
+#: ../../rpi/tor.rst
+msgid "ref"
+msgstr ""
+
+#: ../../rpi/tor.rst:6
+msgid "https://www.freebuf.com/geek/121780.html"
+msgstr ""
+
+#: ../../rpi/tor.rst:7
+msgid ""
+"http://shumeipai.nxez.com/2014/02/28/based-on-anonymous-proxy-raspberry-"
+"pi-and-tordajian.html"
+msgstr ""
+
+#: ../../rpi/tor.rst:12
+msgid "Install tor"
+msgstr ""
+
+#: ../../rpi/tor.rst:21
+msgid "Stop tor service and make a configuration file"
+msgstr ""
+
+#: ../../rpi/tor.rst:28
+msgid "Make tor work for lan, modify configuration file ``/etc/tor/torrc``:"
+msgstr ""
+
+#: ../../rpi/tor.rst:52
+msgid "Restart tor service"
+msgstr ""
+
+#: ../../rpi/tor.rst:61
+msgid "Cat log"
+msgstr ""
+
+#: ../../rpi/tor.rst:87
+msgid "That's right."
+msgstr ""
+
+#: ../../rpi/tor.rst:92
+msgid "Use tor via socks5"
+msgstr ""
+
+#: ../../rpi/tor.rst:94
+msgid "Use tor via socks5..."
+msgstr ""
+
+#~ msgid "Tor"
+#~ msgstr ""
+
