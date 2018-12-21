@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 20:31+0800\n"
+"POT-Creation-Date: 2018-12-21 20:54+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,8 +57,12 @@ msgstr ""
 msgid "balenaEtcher-Portable-1.4.8-x64"
 msgstr ""
 
+#: ../../rpi/init.rst
+msgid "ref"
+msgstr ""
+
 #: ../../rpi/init.rst:23
-msgid "From: https://www.balena.io/etcher/"
+msgid "https://www.balena.io/etcher/"
 msgstr ""
 
 #: ../../rpi/init.rst:28
@@ -157,64 +161,68 @@ msgid ""
 "correct:"
 msgstr ""
 
-#: ../../rpi/init.rst:78
-msgid "hd-idle"
+#: ../../rpi/init.rst:75
+msgid "Reboot"
 msgstr ""
 
 #: ../../rpi/init.rst:80
+msgid "Change /data owner to pi"
+msgstr ""
+
+#: ../../rpi/init.rst:89
+msgid "hd-idle"
+msgstr ""
+
+#: ../../rpi/init.rst:91
 msgid "To protect the HDD, suspend when idle."
 msgstr ""
 
-#: ../../rpi/init.rst:82
+#: ../../rpi/init.rst:93
+msgid "http://www.mkitby.com/2016/05/15/raspberry-pi-nas-manage-hdd-power/"
+msgstr ""
+
+#: ../../rpi/init.rst:96
 msgid "Check support:"
 msgstr ""
 
-#: ../../rpi/init.rst:116
+#: ../../rpi/init.rst:130
 msgid "Install dependencies:"
 msgstr ""
 
-#: ../../rpi/init.rst:123
+#: ../../rpi/init.rst:137
 msgid "Download:"
 msgstr ""
 
-#: ../../rpi/init.rst:129
+#: ../../rpi/init.rst:143
 msgid "Unzip and cd in:"
 msgstr ""
 
-#: ../../rpi/init.rst:135
+#: ../../rpi/init.rst:149
 msgid "Install:"
 msgstr ""
 
-#: ../../rpi/init.rst:142
+#: ../../rpi/init.rst:156
 msgid "Check for support:"
 msgstr ""
 
-#: ../../rpi/init.rst:150
+#: ../../rpi/init.rst:164
 msgid "``Ctrl + C`` to break."
 msgstr ""
 
-#: ../../rpi/init.rst:152
+#: ../../rpi/init.rst:166
 msgid "Edit conf:"
 msgstr ""
 
-#: ../../rpi/init.rst:158
+#: ../../rpi/init.rst:172
 msgid "Modify:"
 msgstr ""
 
-#: ../../rpi/init.rst:164
+#: ../../rpi/init.rst:178
 msgid "Append for idle, after ``600`` seconds:"
 msgstr ""
 
-#: ../../rpi/init.rst:170
+#: ../../rpi/init.rst:184
 msgid "Restart the service:"
-msgstr ""
-
-#: ../../rpi/init.rst
-msgid "ref"
-msgstr ""
-
-#: ../../rpi/init.rst:177
-msgid "http://www.mkitby.com/2016/05/15/raspberry-pi-nas-manage-hdd-power/"
 msgstr ""
 
 #~ msgid "Mount partition1"
@@ -241,5 +249,8 @@ msgstr ""
 #~ "boot to CLI, will disable auto "
 #~ "login at the same time - enable"
 #~ " SSH"
+#~ msgstr ""
+
+#~ msgid "From: https://www.balena.io/etcher/"
 #~ msgstr ""
 

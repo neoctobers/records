@@ -20,7 +20,7 @@ Image Flashing Tool
 
 - balenaEtcher-Portable-1.4.8-x64
 
-From: https://www.balena.io/etcher/
+:ref: https://www.balena.io/etcher/
 
 
 
@@ -71,6 +71,17 @@ Append one line to ``/etc/fstab``, before it, make sure ``/dev/sda3`` is correct
 .. code-block:: text
 
    /dev/sda3    /data    ext4    defaults    1    1
+
+Reboot
+
+
+
+Change /data owner to pi
+------------------------
+
+.. code-block:: console
+
+   $ sudo chown pi /data
 
 
 
