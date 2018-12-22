@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 20:54+0800\n"
+"POT-Creation-Date: 2018-12-22 09:10+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,58 +170,84 @@ msgid "Change /data owner to pi"
 msgstr ""
 
 #: ../../rpi/init.rst:89
-msgid "hd-idle"
+msgid "Don't allow kworker eats CPU"
 msgstr ""
 
 #: ../../rpi/init.rst:91
-msgid "To protect the HDD, suspend when idle."
+msgid ""
+"System will check TF slot every 500ms(green led blinks), during it is "
+"blank, that will eat your CPU time."
 msgstr ""
 
 #: ../../rpi/init.rst:93
-msgid "http://www.mkitby.com/2016/05/15/raspberry-pi-nas-manage-hdd-power/"
+msgid "https://github.com/raspberrypi/linux/issues/2567"
 msgstr ""
 
 #: ../../rpi/init.rst:96
-msgid "Check support:"
+msgid "Check CPU usage:"
+msgstr ""
+
+#: ../../rpi/init.rst:113
+msgid "If kworker eats 8-13% CPU, append one line to ``/boot/config.txt``:"
+msgstr ""
+
+#: ../../rpi/init.rst:121
+msgid "Reboot, OKay."
+msgstr ""
+
+#: ../../rpi/init.rst:126
+msgid "hd-idle"
+msgstr ""
+
+#: ../../rpi/init.rst:128
+msgid "To protect the HDD, suspend when idle."
 msgstr ""
 
 #: ../../rpi/init.rst:130
+msgid "http://www.mkitby.com/2016/05/15/raspberry-pi-nas-manage-hdd-power/"
+msgstr ""
+
+#: ../../rpi/init.rst:133
+msgid "Check support:"
+msgstr ""
+
+#: ../../rpi/init.rst:167
 msgid "Install dependencies:"
 msgstr ""
 
-#: ../../rpi/init.rst:137
+#: ../../rpi/init.rst:174
 msgid "Download:"
 msgstr ""
 
-#: ../../rpi/init.rst:143
+#: ../../rpi/init.rst:180
 msgid "Unzip and cd in:"
 msgstr ""
 
-#: ../../rpi/init.rst:149
+#: ../../rpi/init.rst:186
 msgid "Install:"
 msgstr ""
 
-#: ../../rpi/init.rst:156
+#: ../../rpi/init.rst:193
 msgid "Check for support:"
 msgstr ""
 
-#: ../../rpi/init.rst:164
+#: ../../rpi/init.rst:201
 msgid "``Ctrl + C`` to break."
 msgstr ""
 
-#: ../../rpi/init.rst:166
+#: ../../rpi/init.rst:203
 msgid "Edit conf:"
 msgstr ""
 
-#: ../../rpi/init.rst:172
+#: ../../rpi/init.rst:209
 msgid "Modify:"
 msgstr ""
 
-#: ../../rpi/init.rst:178
+#: ../../rpi/init.rst:215
 msgid "Append for idle, after ``600`` seconds:"
 msgstr ""
 
-#: ../../rpi/init.rst:184
+#: ../../rpi/init.rst:221
 msgid "Restart the service:"
 msgstr ""
 

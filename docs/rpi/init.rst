@@ -85,6 +85,43 @@ Change /data owner to pi
 
 
 
+Don't allow kworker eats CPU
+----------------------------
+
+System will check TF slot every 500ms(green led blinks), during it is blank, that will eat your CPU time.
+
+:ref: https://github.com/raspberrypi/linux/issues/2567
+
+
+Check CPU usage:
+
+.. code-block:: console
+
+   $ top
+   top - 07:43:51 up  7:55,  1 user,  load average: 0.33, 0.29, 0.28
+   Tasks: 100 total,   2 running,  57 sleeping,   0 stopped,   0 zombie
+   %Cpu(s):  0.1 us,  1.3 sy,  0.0 ni, 98.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+   KiB Mem :  1000180 total,   771736 free,    59604 used,   168840 buff/cache
+   KiB Swap:   102396 total,   102396 free,        0 used.   876512 avail Mem
+
+     PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+      29 root      20   0       0      0      0 R   8.9  0.0  44:15.23 kworker/0:1
+    1670 pi        20   0    8128   3288   2764 R   1.0  0.3   0:01.59 top
+   ...
+
+
+If kworker eats 8-13% CPU, append one line to ``/boot/config.txt``:
+
+.. code-block:: text
+
+   # With no TF card
+   dtoverlay=sdtweak,poll_once
+
+
+Reboot, OKay.
+
+
+
 hd-idle
 -------
 
@@ -186,6 +223,5 @@ Restart the service:
 .. code-block:: console
 
    $ sudo service hd-idle restart
-
 
 
