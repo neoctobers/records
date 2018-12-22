@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-22 10:16+0800\n"
+"POT-Creation-Date: 2018-12-22 10:47+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,11 +26,11 @@ msgid "Add ``/path/to/directory`` to $PATH"
 msgstr ""
 
 #: ../../rpi/add_to_path.rst:9
-msgid "In terminal"
+msgid "For terminal"
 msgstr ""
 
 #: ../../rpi/add_to_path.rst:18
-msgid "Write in system"
+msgid "For system"
 msgstr ""
 
 #: ../../rpi/add_to_path.rst:20
@@ -41,7 +41,28 @@ msgstr ""
 msgid "Then:"
 msgstr ""
 
-#: ../../rpi/add_to_path.rst:37
+#: ../../rpi/add_to_path.rst:34
+msgid "Reboot."
+msgstr ""
+
+#: ../../rpi/add_to_path.rst:39
+msgid "For sudo"
+msgstr ""
+
+#: ../../rpi/add_to_path.rst:46
+msgid "Add in ``secure_path=\"...\"``, and reboot."
+msgstr ""
+
+#: ../../rpi/add_to_path.rst:51
 msgid "Check"
 msgstr ""
+
+#~ msgid "In terminal"
+#~ msgstr ""
+
+#~ msgid "Write in system"
+#~ msgstr ""
+
+#~ msgid "Add in ``secure_path=\"...\"``"
+#~ msgstr ""
 

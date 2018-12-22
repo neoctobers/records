@@ -5,8 +5,8 @@ Add ``/path/to/directory`` to $PATH
 
 
 
-In terminal
------------
+For terminal
+------------
 
 .. code-block:: console
 
@@ -14,8 +14,8 @@ In terminal
 
 
 
-Write in system
----------------
+For system
+----------
 
 Write a ``/etc/profile.d/add_to_path.sh`` file:
 
@@ -29,7 +29,21 @@ Then:
 .. code-block:: console
 
    $ sudo chmod +x /etc/profile.d/add_to_path.sh
-   $ sudo reboot
+
+
+Reboot.
+
+
+
+For sudo
+--------
+
+.. code-block:: console
+
+   $ sudo visudo
+
+
+Add in ``secure_path="..."``, and reboot.
 
 
 
