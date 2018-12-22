@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, neoctobers
+# This file is distributed under the same license as the neoctobers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: neoctobers latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-22 14:03+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../rpi/restore_uart.rst:2
+msgid "Restore UART/ttyAMA0 over GPIO, by Disable BT"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:4
+msgid "Release the serial port, GPIO:"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:7
+msgid "GPIO"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:7
+msgid "FUNC"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:9
+msgid "6"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:9
+msgid "TXD0(UART)"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:10
+msgid "8"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:10
+msgid "RXD0(UART)"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:16
+msgid "Modify Boot Configuration"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:18
+msgid "Edit ``/boot/config.txt``, append:"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:25
+msgid "Reboot."
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:30
+msgid "Check"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:43
+msgid "Permit access for pi"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:49
+msgid "Select: ``Interfacing Options`` - ``Serial``:"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:51
+msgid "Disable the login shell on the serial"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:52
+msgid "Enable the serial port hardware"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:53
+msgid "Reboot"
+msgstr ""
+
+#: ../../rpi/restore_uart.rst:58
+msgid "Disable ``hciuart.service``"
+msgstr ""
+
+#~ msgid "Disable serial console"
+#~ msgstr ""
+

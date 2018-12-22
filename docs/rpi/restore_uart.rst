@@ -1,5 +1,5 @@
-Disable Bluetooth and restore UART0/ttyAMA0 over GPIO
-=====================================================
+Restore UART/ttyAMA0 over GPIO, by Disable BT
+=============================================
 
 Release the serial port, GPIO:
 
@@ -38,6 +38,22 @@ Check
    ...
 
 
+
+Permit access for pi
+--------------------
+
+.. code-block:: console
+
+   $ sudo raspi-config
+
+Select: ``Interfacing Options`` - ``Serial``:
+
+- Disable the login shell on the serial
+- Enable the serial port hardware
+- Reboot
+
+
+
 Disable ``hciuart.service``
 ---------------------------
 
@@ -45,14 +61,4 @@ Disable ``hciuart.service``
 
    $ sudo systemctl disable hciuart
    Removed /etc/systemd/system/multi-user.target.wants/hciuart.service.
-
-
-
-Disable serial console
-----------------------
-
-.. code-block:: console
-
-   $ sudo systemctl stop serial-getty@ttyAMA0.service
-   $ sudo systemctl disable serial-getty@ttyAMA0.service
 

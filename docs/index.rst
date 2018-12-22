@@ -38,7 +38,6 @@ Personal records.
    linux/set_timezone_on_ubuntu
    linux/tcpping_on_ubuntu
    linux/commands
-   linux/supervisor
    linux/mysql_for_python3
 
 
@@ -91,8 +90,10 @@ Personal records.
 
    rpi/init
    rpi/install_python3
-   rpi/disable_bt
+   rpi/restore_uart
    rpi/wave_share_4d3inch_epaper
+   rpi/supervisor
+   rpi/crontab
    rpi/shadowsocksr_client
    rpi/proxychains
    rpi/tor

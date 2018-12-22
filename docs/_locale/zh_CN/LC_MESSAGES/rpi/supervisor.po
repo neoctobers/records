@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 23:28+0800\n"
+"POT-Creation-Date: 2018-12-22 13:37+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,47 +17,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../linux/supervisor.rst:2
+#: ../../rpi/supervisor.rst:2
 msgid "Supervisor"
 msgstr ""
 
-#: ../../linux/supervisor.rst:4
+#: ../../rpi/supervisor.rst:4
 msgid "Supervisor: A Process Control System"
 msgstr ""
 
-#: ../../linux/supervisor.rst
+#: ../../rpi/supervisor.rst
 msgid "ref"
 msgstr ""
 
-#: ../../linux/supervisor.rst:6
+#: ../../rpi/supervisor.rst:6
 msgid "http://supervisord.org/index.html"
 msgstr ""
 
-#: ../../linux/supervisor.rst:11
+#: ../../rpi/supervisor.rst:11
 msgid "Install"
 msgstr ""
 
-#: ../../linux/supervisor.rst:20
+#: ../../rpi/supervisor.rst:20
 msgid "sample.conf"
 msgstr ""
 
-#: ../../linux/supervisor.rst:22
+#: ../../rpi/supervisor.rst:22
 msgid "http://supervisord.org/configuration.html#program-x-section-example"
 msgstr ""
 
-#: ../../linux/supervisor.rst:25
+#: ../../rpi/supervisor.rst:25
 msgid "Under ``/etc/supervisor/conf.d/``, write a file ``sample.conf`` like:"
 msgstr ""
 
-#: ../../linux/supervisor.rst:40
+#: ../../rpi/supervisor.rst:40
 msgid "Commands"
 msgstr ""
-
-#~ msgid "supervisor"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "REF: http://supervisord.org/configuration.html#program-x"
-#~ "-section-example"
-#~ msgstr ""
 
