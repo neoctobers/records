@@ -99,6 +99,7 @@ Personal records.
    rpi/tor
    rpi/socks_to_http
    rpi/add_to_path
+   rpi/base_calculator
 
 
 
