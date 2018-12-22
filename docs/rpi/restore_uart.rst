@@ -53,6 +53,9 @@ Select: ``Interfacing Options`` - ``Serial``:
 - Reboot
 
 
+:ref: https://www.raspberrypi.org/forums/viewtopic.php?t=180254
+
+
 
 Disable ``hciuart.service``
 ---------------------------
