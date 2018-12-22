@@ -1,7 +1,7 @@
-Add $PATH in Linux
-==================
+Add to $PATH
+============
 
-Add $PATH in Linux
+Add ``/path/to/directory`` to $PATH
 
 
 
@@ -17,7 +17,7 @@ In terminal
 Write in system
 ---------------
 
-Write a ``/etc/profile.d/add_path.sh`` file:
+Write a ``/etc/profile.d/add_to_path.sh`` file:
 
 .. code-block:: text
 
@@ -28,7 +28,7 @@ Then:
 
 .. code-block:: console
 
-   $ sudo chmod +x /etc/profile.d/add_path.sh
+   $ sudo chmod +x /etc/profile.d/add_to_path.sh
    $ sudo reboot
 
 

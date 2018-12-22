@@ -38,7 +38,6 @@ Personal records.
    linux/set_timezone_on_ubuntu
    linux/tcpping_on_ubuntu
    linux/commands
-   linux/add_path_in_linux
    linux/supervisor
    linux/mysql_for_python3
 
@@ -98,6 +97,7 @@ Personal records.
    rpi/proxychains
    rpi/tor
    rpi/socks_to_http
+   rpi/add_to_path
 
 
 
