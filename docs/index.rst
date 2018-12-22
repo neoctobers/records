@@ -97,6 +97,7 @@ Personal records.
    rpi/shadowsocksr_client
    rpi/proxychains
    rpi/tor
+   rpi/socks_to_http
 
 
 

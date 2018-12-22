@@ -35,6 +35,7 @@ Make tor work for lan, modify configuration file ``/etc/tor/torrc``:
    # SOCKS
    SOCKSPort 9050
    SocksListenAddress 0.0.0.0:9050
+   SocksPolicy accept 127.0.0.0/8
    SocksPolicy accept 10.168.0.0/16
    SocksPolicy accept 172.16.0.0/12
    SocksPolicy accept 192.168.0.0/16
@@ -45,6 +46,9 @@ Make tor work for lan, modify configuration file ``/etc/tor/torrc``:
 
    # LOG
    Log notice file /var/log/tor/notices.log
+
+
+:ref: https://github.com/torproject/tor/blob/master/src/config/torrc.sample.in
 
 
 
@@ -91,6 +95,5 @@ That's right.
 Use tor via socks5
 ------------------
 
-Use tor via socks5...
-
+Can use tor via socks5 now...
 
