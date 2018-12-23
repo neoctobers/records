@@ -39,6 +39,8 @@ Personal records.
    dev/read_the_docs
    dev/settings_sync
    dev/wave_share_4d3inch_epaper
+   dev/self_signed_certificate
+   dev/postgresql_grant_privileges
 
 
 
