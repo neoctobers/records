@@ -4,6 +4,26 @@ Records of neoctobers
 Personal records.
 
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: RPi3B+
+
+   rpi/init
+   rpi/install_python3
+   rpi/restore_uart
+   rpi/wave_share_4d3inch_epaper
+   rpi/supervisor
+   rpi/crontab
+   rpi/shadowsocksr_client
+   rpi/proxychains
+   rpi/tor
+   rpi/socks_to_http
+   rpi/add_to_path
+   rpi/base_calculator
+
+
+
 .. toctree::
    :maxdepth: 1
    :caption: About Development
@@ -19,6 +39,7 @@ Personal records.
    dev/read_the_docs
    dev/settings_sync
    dev/wave_share_4d3inch_epaper
+
 
 
 
@@ -52,6 +73,8 @@ Personal records.
    python/virtualenvwrapper-win
    python/postgresql
    python/django_postgresql
+   python/pip_requirements
+   python/useful_packages
 
 
 
@@ -78,34 +101,9 @@ Personal records.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Network
+   :caption: Windows
 
-   network/tor
+   windows/light_shot
+   windows/tor
 
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: RPi3B+
-
-   rpi/init
-   rpi/install_python3
-   rpi/restore_uart
-   rpi/wave_share_4d3inch_epaper
-   rpi/supervisor
-   rpi/crontab
-   rpi/shadowsocksr_client
-   rpi/proxychains
-   rpi/tor
-   rpi/socks_to_http
-   rpi/add_to_path
-   rpi/base_calculator
-
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: General
-
-   general/downloads
 

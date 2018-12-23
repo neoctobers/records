@@ -19,7 +19,7 @@ Line:
 
 .. code-block:: text
 
-   0/30 * * * *    /path/to/command
+   0,30 * * * *    /path/to/command
 
 
 

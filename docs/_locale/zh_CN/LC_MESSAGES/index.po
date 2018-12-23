@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 18:06+0800\n"
+"POT-Creation-Date: 2018-12-22 20:31+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,40 +29,42 @@ msgstr ""
 msgid "About Development"
 msgstr "有关程序与开发"
 
-#: ../../index.rst:24
+#: ../../index.rst:25
 msgid "Write"
 msgstr "有关写作"
 
-#: ../../index.rst:31
+#: ../../index.rst:33
 msgid "Linux"
 msgstr ""
 
-#: ../../index.rst:49
+#: ../../index.rst:45
 #, fuzzy
 msgid "Python"
 msgstr "Python 万能胶水"
 
-#: ../../index.rst:61
+#: ../../index.rst:59
 msgid "Open-source"
 msgstr "开源代码"
 
-#: ../../index.rst:73
+#: ../../index.rst:72
 #, fuzzy
 msgid "PHP"
 msgstr "PHP 拍黄片"
 
 #: ../../index.rst:80
-msgid "Network"
+msgid "Windows"
 msgstr ""
 
-#: ../../index.rst:87
+#: ../../index.rst:89
 msgid "RPi3B+"
 msgstr ""
 
-#: ../../index.rst:94
-msgid "General"
-msgstr "其它"
-
 #~ msgid "My Python packages"
 #~ msgstr ""
+
+#~ msgid "Network"
+#~ msgstr ""
+
+#~ msgid "General"
+#~ msgstr "其它"
 
