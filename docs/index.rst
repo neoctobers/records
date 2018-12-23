@@ -68,6 +68,7 @@ Personal records.
    :caption: Python
 
    python/python3_cookbook
+   python/update_to_pip3_on_ubuntu
    python/django
    python/django_orm
    python/virtualenvwrapper-win
