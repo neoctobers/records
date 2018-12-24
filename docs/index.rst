@@ -62,6 +62,7 @@ Personal records.
    linux/tcpping_on_ubuntu
    linux/commands
    linux/mysql_for_python3
+   linux/install_libsodium
 
 
 

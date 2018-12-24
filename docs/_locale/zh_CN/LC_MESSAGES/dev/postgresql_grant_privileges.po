@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-24 01:34+0800\n"
+"POT-Creation-Date: 2018-12-24 16:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,18 +18,36 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../dev/postgresql_grant_privileges.rst:2
-msgid ""
-"PostgreSQL: Grant all privileges on all tables in schema public to user-"
-"name"
+msgid "PostgreSQL: Grant all privileges on all xxx in schema public to user-name"
+msgstr ""
+
+#: ../../dev/postgresql_grant_privileges.rst:4
+msgid "For tables:"
 msgstr ""
 
 #: ../../dev/postgresql_grant_privileges.rst
 msgid "ref"
 msgstr ""
 
-#: ../../dev/postgresql_grant_privileges.rst:8
+#: ../../dev/postgresql_grant_privileges.rst:10
 msgid ""
 "https://poanchen.github.io/blog/2018/03/07/How-to-fix-permission-denied-"
 "for-relation-some_table_name-in-PostgreSQL"
 msgstr ""
+
+#: ../../dev/postgresql_grant_privileges.rst:15
+msgid "For sequence ``xx_id_seq``:"
+msgstr ""
+
+#: ../../dev/postgresql_grant_privileges.rst:21
+msgid ""
+"https://stackoverflow.com/questions/9325017/error-permission-denied-for-"
+"sequence-cities-id-seq-using-postgres"
+msgstr ""
+
+#~ msgid ""
+#~ "PostgreSQL: Grant all privileges on all"
+#~ " tables in schema public to user-"
+#~ "name"
+#~ msgstr ""
 
