@@ -20,6 +20,7 @@ Personal records.
    rpi/tor
    rpi/socks_to_http
    rpi/add_to_path
+   rpi/samba
    rpi/base_calculator
 
 

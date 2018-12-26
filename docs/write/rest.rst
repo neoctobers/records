@@ -105,7 +105,63 @@ Note that the term cannot have more than one line of text.
 Quoted paragraphs
 -----------------
 
-Quoted paragraphs, seems does not work.
+John Doe wrote::
+
+>> Great idea!
+>
+> Why didn't I think of that?
+
+You just did!  ;-)
+
+.. code-block:: text
+
+   John Doe wrote::
+
+   >> Great idea!
+   >
+   > Why didn't I think of that?
+
+   You just did!  ;-)
+
+
+
+Line Blocks
+-----------
+
+Take it away, Eric the Orchestra Leader!
+
+    | A one, two, a one two three four
+    |
+    | Half a bee, philosophically,
+    |     must, *ipso facto*, half not be.
+    | But half the bee has got to be,
+    |     *vis a vis* its entity.  D'you see?
+    |
+    | But can a bee be said to be
+    |     or not to be an entire bee,
+    |         when half the bee is not a bee,
+    |             due to some ancient injury?
+    |
+    | Singing...
+
+.. code-block:: text
+
+    Take it away, Eric the Orchestra Leader!
+
+        | A one, two, a one two three four
+        |
+        | Half a bee, philosophically,
+        |     must, *ipso facto*, half not be.
+        | But half the bee has got to be,
+        |     *vis a vis* its entity.  D'you see?
+        |
+        | But can a bee be said to be
+        |     or not to be an entire bee,
+        |         when half the bee is not a bee,
+        |             due to some ancient injury?
+        |
+        | Singing...
+
 
 
 Literal blocks
@@ -246,12 +302,80 @@ Normally, there are no heading levels assigned to certain characters as the stru
 For me, in this reST guide sample, I prefer ``-----------``.
 
 
+Use keyword for footnote
+------------------------
+
+Here is a [#note]_ sample, and a same [#note]_ here, and a link note_ also.
+
+.. [#note] This is the footnote labeled "note".
+
+
+.. code-block:: text
+
+    Here is a [#note]_ sample, and a same [#note]_ here, and a link note_ also.
+
+    .. [#note] This is the footnote labeled "note".
+
+
+
+Citations
+---------
+
+Here is a citation reference: [CIT2002]_.
+
+.. [CIT2002] This is the citation.  It's just like a footnote,
+   except the label is textual.
+
+.. code-block:: text
+
+    Here is a citation reference: [CIT2002]_.
+
+    .. [CIT2002] This is the citation.  It's just like a footnote,
+       except the label is textual.
+
+
+
+Hyperlink Targets
+-----------------
+
+Clicking on this internal hyperlink will take us to the target_
+
+.. _target:
+
+The hyperlink target above points to this paragraph.
+
+.. code-block:: text
+
+    Clicking on this internal hyperlink will take us to the target_
+
+    .. _target:
+
+    The hyperlink target above points to this paragraph.
+
+
+
+Substitution Definitions
+------------------------
+
+The |biohazard| symbol must be used on containers used to
+dispose of medical waste.
+
+.. |biohazard| image:: https://avatars2.githubusercontent.com/u/6206827?s=40&v=4
+
+.. code-block:: text
+
+    The |biohazard| symbol must be used on containers used to
+    dispose of medical waste.
+
+    .. |biohazard| image:: https://avatars2.githubusercontent.com/u/6206827?s=40&v=4
+
+
+
+
 TBC
 ---
 
 To be continued...
-
-
 
 
 

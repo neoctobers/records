@@ -20,6 +20,7 @@ Edit the ``frps.ini``::
     [common]
     bind_port = 7000
     vhost_https_port = 443
+    token = t0ken4c0nnect
 
 
 Write a ``/etc/systemd/system/frps.service``::
@@ -67,6 +68,7 @@ Edit the ``frpc.ini``::
     [common]
     server_addr = your-ip-address
     server_port = 7000
+    token = t0ken4c0nnect
 
     [your.domain.com:port]
     type = https
