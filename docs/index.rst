@@ -90,6 +90,7 @@ Personal records.
    repo/scripts
    repo/py_list_ext
    repo/py_dict_ext
+   repo/py_file_ext
    repo/py_common_patterns
    repo/py_ssr_utils
    repo/py_xpi
