@@ -92,6 +92,7 @@ Personal records.
    repo/py_dict_ext
    repo/py_file_ext
    repo/py_common_patterns
+   repo/py_ip_query
    repo/py_ssr_utils
    repo/py_xpi
 
