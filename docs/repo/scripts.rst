@@ -5,32 +5,64 @@ https://github.com/neoctobers/scripts
 
 
 
-Clone and config
-----------------
+Clone
+-----
 
 .. code-block:: console
 
-    $ git clone git@github.com:neoctobers/scripts.git
-
-
-Add the absolute path to ``PATH``.
-
-Then you can use these commands everywhere.
+   $ git clone git@github.com:neoctobers/scripts.git
 
 
 
-Homestead
----------
+Windows
+-------
 
-Add the homestead directory's absolute path to the name ``homesteadVagrant`` in system environment variables.
+Add the absolute path to ``PATH``. Then you can easily use these commands everywhere.
 
-Then, use the command ``homestead`` as ``vagrant``, for example:
+
+
+Linux
+-----
+
+``+x``:
 
 .. code-block:: console
 
-    $ homestead -up
+   $ sudo chmod +x /path/to/scripts/linux/*
 
-    $ homestead reload --provision
 
-    $ homestead halt
+Create ``/etc/profile.d/add_to_path.sh``:
+
+.. code-block:: console
+
+   $ sudo nano /etc/profile.d/add_to_path.sh
+
+
+Edit with one line:
+
+.. code-block:: text
+
+   export PATH=/path/to/scripts/linux:$PATH
+
+
+Permit:
+
+.. code-block:: console
+
+   $ sudo chmod +x /etc/profile.d/add_to_path.sh
+
+
+Add to sudo:
+
+.. code-block:: console
+
+   $ sudo visudo
+
+
+Add ``/path/to/scripts/linux`` in ``secure_path="..."``.
+
+
+
+Reboot
+
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-19 22:46+0800\n"
+"POT-Creation-Date: 2019-01-01 09:54+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,31 +26,72 @@ msgid "https://github.com/neoctobers/scripts"
 msgstr ""
 
 #: ../../repo/scripts.rst:9
-msgid "Clone and config"
-msgstr ""
-
-#: ../../repo/scripts.rst:16
-msgid "Add the absolute path to ``PATH``."
+msgid "Clone"
 msgstr ""
 
 #: ../../repo/scripts.rst:18
-msgid "Then you can use these commands everywhere."
+msgid "Windows"
 msgstr ""
 
-#: ../../repo/scripts.rst:23
-msgid "Homestead"
+#: ../../repo/scripts.rst:20
+msgid ""
+"Add the absolute path to ``PATH``. Then you can easily use these commands"
+" everywhere."
 msgstr ""
 
 #: ../../repo/scripts.rst:25
-msgid ""
-"Add the homestead directory's absolute path to the name "
-"``homesteadVagrant`` in system environment variables."
+msgid "Linux"
 msgstr ""
 
 #: ../../repo/scripts.rst:27
-msgid "Then, use the command ``homestead`` as ``vagrant``, for example:"
+msgid "``+x``:"
+msgstr ""
+
+#: ../../repo/scripts.rst:34
+msgid "Create ``/etc/profile.d/add_to_path.sh``:"
+msgstr ""
+
+#: ../../repo/scripts.rst:41
+msgid "Edit with one line:"
+msgstr ""
+
+#: ../../repo/scripts.rst:48
+msgid "Permit:"
+msgstr ""
+
+#: ../../repo/scripts.rst:55
+msgid "Add to sudo:"
+msgstr ""
+
+#: ../../repo/scripts.rst:62
+msgid "Add ``/path/to/scripts/linux`` in ``secure_path=\"...\"``."
+msgstr ""
+
+#: ../../repo/scripts.rst:66
+msgid "Reboot"
 msgstr ""
 
 #~ msgid "Then you can use these ``.bat`` commands everywhere."
+#~ msgstr ""
+
+#~ msgid "Clone and config"
+#~ msgstr ""
+
+#~ msgid "Add the absolute path to ``PATH``."
+#~ msgstr ""
+
+#~ msgid "Then you can use these commands everywhere."
+#~ msgstr ""
+
+#~ msgid "Homestead"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add the homestead directory's absolute "
+#~ "path to the name ``homesteadVagrant`` in"
+#~ " system environment variables."
+#~ msgstr ""
+
+#~ msgid "Then, use the command ``homestead`` as ``vagrant``, for example:"
 #~ msgstr ""
 
