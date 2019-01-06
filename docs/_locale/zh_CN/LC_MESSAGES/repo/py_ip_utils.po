@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neoctobers latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 19:22+0800\n"
+"POT-Creation-Date: 2019-01-06 13:44+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,16 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../repo/py_ip_utils.rst:2
-msgid "PyPI: ip-utils - A Python IP utils package"
+msgid "PyPI: ip-utils - IP utils"
 msgstr ""
 
 #: ../../repo/py_ip_utils.rst:4
-msgid "TODO."
+msgid "TBC."
 msgstr ""
+
+#~ msgid "PyPI: ip-utils - A Python IP utils package"
+#~ msgstr ""
+
+#~ msgid "TODO."
+#~ msgstr ""
 

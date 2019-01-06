@@ -1,4 +1,4 @@
-PyPI: ip-utils - A Python IP utils package
-==========================================
+PyPI: ip-utils - IP utils
+=========================
 
-TODO.
+TBC.
