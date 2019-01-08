@@ -1,6 +1,7 @@
 cmder in hyper.js
 =================
 
+:ref: https://hyper.is/
 :ref: https://github.com/cmderdev/cmder/wiki/Seamless-Hyper-integration
 
 
