@@ -35,6 +35,7 @@ Personal records.
    dev/git_multi_ssh_key
    dev/git_io
    dev/cmder
+   dev/cmder_in_hyper
    dev/cmd_behind_a_proxy
    dev/multi_commands_in_one_line
    dev/read_the_docs
