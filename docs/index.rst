@@ -81,6 +81,7 @@ Personal records.
    python/django_postgresql
    python/pip_requirements
    python/useful_packages
+   python/pypi
 
 
 
@@ -94,7 +95,6 @@ Personal records.
    repo/py_file_ext
    repo/py_ssr_utils
    repo/py_ip_utils
-   repo/py_common_patterns
    repo/py_xpi
 
 
