@@ -1,7 +1,7 @@
-Install Python3.7.1
+Install Python3.7.2
 ===================
 
-Install Phthon3.7.1 and make symlink to ``/usr/bin/``.
+Install Phthon3.7.2 and make symlink to ``/usr/bin/``.
 
 
 
@@ -15,14 +15,14 @@ Install dependence
 
 
 
-Download and install Python-3.7.1
+Download and install Python-3.7.2
 ---------------------------------
 
 .. code-block:: console
 
-   $ wget https://www.python.org/ftp/python/3.7.1/Python-3.7.1.tgz
-   $ tar zxvf Python-3.7.1.tgz && cd Python-3.7.1
-   $ sudo ./configure --prefix=/usr/local/opt/python-3.7.1 --with-ssl
+   $ wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz
+   $ tar zxvf Python-3.7.2.tgz && cd Python-3.7.2
+   $ sudo ./configure --prefix=/usr/local/opt/python-3.7.2 --with-ssl
    $ sudo make && sudo make install
 
 .. NOTE::
@@ -48,16 +48,16 @@ Make Symlinks
 
 .. code-block:: console
 
-   $ sudo ln -s /usr/local/opt/python-3.7.1/bin/python3.7 /usr/bin/python3.7
-   $ sudo ln -s /usr/local/opt/python-3.7.1/bin/python3.7 /usr/bin/python3
-   $ sudo ln -s /usr/local/opt/python-3.7.1/bin/python3.7 /usr/bin/py
+   $ sudo ln -s /usr/local/opt/python-3.7.2/bin/python3.7 /usr/bin/python3.7
+   $ sudo ln -s /usr/local/opt/python-3.7.2/bin/python3.7 /usr/bin/python3
+   $ sudo ln -s /usr/local/opt/python-3.7.2/bin/python3.7 /usr/bin/py
 
-   $ sudo ln -s /usr/local/opt/python-3.7.1/bin/pip3.7 /usr/bin/pip3.7
-   $ sudo ln -s /usr/local/opt/python-3.7.1/bin/pip3.7 /usr/bin/pip3
+   $ sudo ln -s /usr/local/opt/python-3.7.2/bin/pip3.7 /usr/bin/pip3.7
+   $ sudo ln -s /usr/local/opt/python-3.7.2/bin/pip3.7 /usr/bin/pip3
 
-   $ sudo ln -s /usr/local/opt/python-3.7.1/bin/pydoc3.7 /usr/bin/pydoc3.7
-   $ sudo ln -s /usr/local/opt/python-3.7.1/bin/python3.7m /usr/bin/python3.7m
-   $ sudo ln -s /usr/local/opt/python-3.7.1/bin/pyvenv-3.7 /usr/bin/pyvenv-3.7
+   $ sudo ln -s /usr/local/opt/python-3.7.2/bin/pydoc3.7 /usr/bin/pydoc3.7
+   $ sudo ln -s /usr/local/opt/python-3.7.2/bin/python3.7m /usr/bin/python3.7m
+   $ sudo ln -s /usr/local/opt/python-3.7.2/bin/pyvenv-3.7 /usr/bin/pyvenv-3.7
 
 
 
@@ -76,31 +76,31 @@ Try:
    Traceback (most recent call last):
      File "/usr/bin/pip3", line 11, in <module>
        sys.exit(main())
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/site-packages/pip/_internal/__init__.py", line 246, in main
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/site-packages/pip/_internal/__init__.py", line 246, in main
        return command.main(cmd_args)
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/site-packages/pip/_internal/basecommand.py", line 264, in main
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/site-packages/pip/_internal/basecommand.py", line 264, in main
        timeout=min(5, options.timeout)) as session:
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/site-packages/pip/_internal/basecommand.py", line 81, in _build_session
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/site-packages/pip/_internal/basecommand.py", line 81, in _build_session
        insecure_hosts=options.trusted_hosts,
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/site-packages/pip/_internal/download.py", line 338, in __init__
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/site-packages/pip/_internal/download.py", line 338, in __init__
        self.headers["User-Agent"] = user_agent()
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/site-packages/pip/_internal/download.py", line 101, in user_agent
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/site-packages/pip/_internal/download.py", line 101, in user_agent
        zip(["name", "version", "id"], distro.linux_distribution()),
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/site-packages/pip/_vendor/distro.py", line 120, in linux_distribution
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/site-packages/pip/_vendor/distro.py", line 120, in linux_distribution
        return _distro.linux_distribution(full_distribution_name)
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/site-packages/pip/_vendor/distro.py", line 634, in linux_distribution
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/site-packages/pip/_vendor/distro.py", line 634, in linux_distribution
        self.version(),
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/site-packages/pip/_vendor/distro.py", line 688, in version
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/site-packages/pip/_vendor/distro.py", line 688, in version
        self.lsb_release_attr('release'),
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/site-packages/pip/_vendor/distro.py", line 836, in lsb_release_attr
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/site-packages/pip/_vendor/distro.py", line 836, in lsb_release_attr
        return self._lsb_release_info.get(attribute, '')
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/site-packages/pip/_vendor/distro.py", line 522, in __get__
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/site-packages/pip/_vendor/distro.py", line 522, in __get__
         ret = obj.__dict__[self._fname] = self._f(obj)
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/site-packages/pip/_vendor/distro.py", line 933, in _lsb_release_info
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/site-packages/pip/_vendor/distro.py", line 933, in _lsb_release_info
        stdout = subprocess.check_output(cmd, stderr=devnull)
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/subprocess.py", line 389, in check_output
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/subprocess.py", line 389, in check_output
        **kwargs).stdout
-     File "/usr/local/opt/python-3.7.1/lib/python3.7/subprocess.py", line 481, in run
+     File "/usr/local/opt/python-3.7.2/lib/python3.7/subprocess.py", line 481, in run
        output=stdout, stderr=stderr)
    subprocess.CalledProcessError: Command '('lsb_release', '-a')' returned non-zero exit status 1.
 
