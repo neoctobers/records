@@ -56,5 +56,5 @@ Check and usage
 
 .. code-block:: console
 
-    $ porxychains4 curl https://api.myip.com/
+    $ proxychains4 curl https://api.myip.com/
 
