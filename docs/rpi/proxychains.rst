@@ -18,7 +18,7 @@ Installation
     $ sudo make && sudo make install
 
 
-The full path to command is: ``/usr/local/bin/porxychains4``
+The full path to command is: ``/usr/local/bin/proxychains4``
 
 
 
